@@ -57,6 +57,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Geração e terreno
 
 - O chão/fundo do bioma é formado principalmente por **Pedra Abissal**.
+- A Pedra Abissal possui pelo menos uma variante confirmada: **Tijolos de Pedra Abissal**.
 - O `Abyssal Ocean` substitui o oceano profundo atual em parte da geração.
 - É raro.
 - O fundo deve chegar aproximadamente à camada Y=0.
