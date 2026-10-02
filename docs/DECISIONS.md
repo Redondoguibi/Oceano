@@ -29,14 +29,39 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** os updates não são capítulos obrigatórios de progressão linear.
 - **Decidido:** a arquitetura deve ser modular para permitir novos conjuntos de biomas, criaturas, estruturas, loot e sistemas relacionados sem refazer a base.
 
+### Update 1
+- **Decidido:** corresponde ao lançamento inicial do mod e ainda não possui nome próprio definido.
+- **Decidido:** seu tema central são cristais abissais.
+- **Decidido:** adiciona o bioma `Abyssal Ocean`.
+- **Decidido:** o `Abyssal Ocean` é muito profundo e contém muitos cristais abissais roxos.
+
+### Update 2
+- **Decidido:** chama-se `Kelp Forest`.
+- **Decidido:** é centrado em uma floresta de algas.
+- **Decidido:** o bioma principal é uma floresta de algas.
+- **Decidido:** o update expande esse ecossistema com estruturas, mobs e outros conteúdos próprios.
+
+### Update 3
+- **Decidido:** ainda não possui nome.
+- **Decidido:** tem escopo amplo e não é centrado em um novo bioma específico.
+- **Decidido:** adicionará eventos climáticos durante navegações.
+- **Decidido:** haverá tempestades personalizadas do mod.
+- **Decidido:** haverá momentos/eventos de escuridão.
+- **Decidido:** haverá ilhas geradas no oceano como estruturas.
+- **Observação de escopo:** o usuário acredita que provavelmente será o update tecnicamente mais complexo.
+
 ## Em aberto
 
 - Entrada do jogador no conteúdo do mod.
 - Loop principal.
 - Progressão.
-- Estrutura da exploração.
+- Detalhes completos do Abyssal Ocean.
+- Detalhes completos da Kelp Forest.
+- Sistema de eventos climáticos.
+- Sistema e conteúdo das ilhas.
 - Criaturas e bosses.
-- Estruturas e biomas.
+- Estruturas.
+- Recursos, itens e loot.
 - Sistemas únicos.
 - Direção artística.
-- Escopo da primeira versão.
+- Escopo exato do lançamento inicial.
