@@ -28,6 +28,8 @@ Registro das decisões de design tomadas antes da implementação.
 
 ### Referências centrais
 - **Decidido:** Seaside Story é uma referência importante para o Abyssal Ocean, Kelp Forest e linguagem de criaturas.
+- **Decidido:** o bioma **Crystal Melodie** de Seaside Story é a referência visual específica para parte da identidade do Abyssal Ocean.
+- **Decidido:** o tubarão de referência da Kelp Forest é o mob raro/especial exclusivo do bioma de floresta de algas do addon Seaside Story, não um tubarão genérico.
 - **Decidido:** a atmosfera/tema do Leviathan de Cataclysm é uma referência para o Abyssal Ocean.
 - **Decidido:** Blox Fruits é referência principal para tempestades e dinâmica de ilhas do Update 3.
 - **Decidido:** o formato dos cristais abissais é criação própria, semelhante a uma pirâmide deformada sem base gigante.
