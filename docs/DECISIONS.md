@@ -15,6 +15,8 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o mod será planejado em conversa antes da implementação principal.
 - **Decidido:** a documentação será atualizada continuamente no repositório.
 - **Decidido:** depois do design, o conteúdo será entregue ao Codex em um handoff consolidado para implementação.
+- **Decidido:** o usuário já possui o mod bem planejado mentalmente; o papel da conversa é extrair e formalizar essa visão.
+- **Decidido:** as perguntas devem ser específicas, focadas em sistemas e comportamento do mod, evitando questionários genéricos ou menus de alternativas salvo quando úteis para esclarecer algo.
 
 ### Identidade
 - **Decidido:** o pilar principal do mod é **exploração misteriosa**.
@@ -23,11 +25,12 @@ Registro das decisões de design tomadas antes da implementação.
 
 ## Em aberto
 
-- Natureza do mistério: natural, sobrenatural, ancestral ou híbrida.
-- Papel do oceano no gameplay.
-- Superfície vs. profundezas.
+- Entrada do jogador no conteúdo do mod.
+- Loop principal.
 - Progressão.
-- Escopo da primeira versão.
-- Criaturas, bosses, estruturas e biomas.
+- Estrutura da exploração.
+- Criaturas e bosses.
+- Estruturas e biomas.
 - Sistemas únicos.
 - Direção artística.
+- Escopo da primeira versão.
