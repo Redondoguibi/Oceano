@@ -51,8 +51,10 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - O jogador pode encontrar a região na superfície, mas precisa descer até uma profundidade/coordenada específica para realmente entrar no bioma.
 - O acesso prolongado depende do item **Abyssal Catalyst**.
 - Sem o Abyssal Catalyst, o jogador pode permanecer no bioma por aproximadamente **1 minuto contínuo**.
+- Aos **30 segundos**, o jogador recebe o efeito de **Náusea** como aviso/penalidade intermediária.
 - Ao entrar no bioma, deve ser registrado o último local válido onde o jogador estava antes da entrada.
-- Se o minuto se esgotar, o jogador é devolvido para esse local registrado.
+- Se o minuto se esgotar, o jogador é simplesmente teleportado de volta para esse local registrado.
+- Não há efeito adicional especial no teleporte.
 - Se o jogador sair do bioma antes do tempo acabar, o contador é resetado.
 - Ao entrar novamente sem Catalyst, um novo período de 1 minuto começa do zero.
 
@@ -78,6 +80,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Abyssal Catalyst
 
 - Item obrigatório para permanecer no Abyssal Ocean por longos períodos.
+- É um item **permanente**: não perde durabilidade nem carga pelo uso.
 - Basta o item existir em qualquer slot do inventário do jogador; não precisa estar equipado nem segurado.
 - Sua receita exige:
   - cristais abissais comuns;
@@ -104,6 +107,16 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - A densidade visual da água/névoa subaquática aumenta com a profundidade.
 - Consequentemente, a visibilidade diminui progressivamente durante a descida.
 - A identidade visual do bioma deve vir da profundidade, densidade, iluminação e elementos abissais, e não de uma troca brusca de cor da água.
+
+### Progressão inicial
+
+- A primeira incursão no Abyssal Ocean deve acontecer **sem** o Abyssal Catalyst.
+- O jogador tem até aproximadamente 1 minuto para:
+  - minerar cristais abissais comuns;
+  - encontrar o `magic_abyssal_crystal` dentro de um aglomerado.
+- Com esses materiais, o jogador fabrica o Abyssal Catalyst.
+- Depois disso, passa a poder permanecer no bioma livremente.
+- Esse é o primeiro pequeno desafio/progresso natural do Abyssal Ocean.
 
 ### Perigo
 
