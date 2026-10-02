@@ -71,6 +71,16 @@ Referência principal para sistemas do Update 3.
 
 ## Referências criadas pelo próprio usuário
 
+### Pedra Abissal
+
+Referência visual salva no repositório:
+
+`docs/assets/abyssal_stone.png`
+
+- Textura-base escura, em tons roxo-preto, mantendo leitura de bloco Minecraft.
+- É o material principal do chão/fundo do Abyssal Ocean.
+- Há pelo menos uma variante confirmada: **Tijolos de Pedra Abissal**.
+
 ### Cristais abissais
 
 - O formato não vem de uma referência externa específica.
