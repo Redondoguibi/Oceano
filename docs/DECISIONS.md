@@ -58,6 +58,8 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o chão/fundo do Abyssal Ocean é formado principalmente por **Pedra Abissal**.
 - **Decidido:** existe uma variante em **Tijolos de Pedra Abissal**.
 - **Decidido:** possui paredes verticais moderadas.
+- **Decidido:** a cor da água não muda conforme a profundidade.
+- **Decidido:** a densidade visual/névoa subaquática aumenta conforme o jogador desce, reduzindo progressivamente a visibilidade.
 - **Decidido:** cristais abissais roxos geram em pequenos aglomerados no chão.
 - **Decidido:** também existem formações gigantes raras de cristais para variedade visual.
 - **Decidido:** os cristais exigem nível diamante para mineração.
