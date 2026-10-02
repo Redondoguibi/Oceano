@@ -51,8 +51,10 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - O jogador pode encontrar a região na superfície, mas precisa descer até uma profundidade/coordenada específica para realmente entrar no bioma.
 - O acesso prolongado depende do item **Abyssal Catalyst**.
 - Sem o Abyssal Catalyst, o jogador pode permanecer no bioma por aproximadamente **1 minuto contínuo**.
-- Após esse período, o jogador é devolvido para o local onde estava antes de entrar no bioma.
-- O comportamento exato do retorno ainda pode ser refinado tecnicamente, mas a regra de gameplay está definida.
+- Ao entrar no bioma, deve ser registrado o último local válido onde o jogador estava antes da entrada.
+- Se o minuto se esgotar, o jogador é devolvido para esse local registrado.
+- Se o jogador sair do bioma antes do tempo acabar, o contador é resetado.
+- Ao entrar novamente sem Catalyst, um novo período de 1 minuto começa do zero.
 
 ### Geração e terreno
 
@@ -76,6 +78,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Abyssal Catalyst
 
 - Item obrigatório para permanecer no Abyssal Ocean por longos períodos.
+- Basta o item existir em qualquer slot do inventário do jogador; não precisa estar equipado nem segurado.
 - Sua receita exige:
   - cristais abissais comuns;
   - **1 `magic_abyssal_crystal`**.
