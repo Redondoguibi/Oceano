@@ -43,6 +43,8 @@ A conversa de design deve fechar, entre outros pontos:
 3. Ideias ainda não confirmadas ficam marcadas como **Em aberto**.
 4. O Codex só deve implementar como definitivo o que estiver marcado como **Decidido**.
 5. No fim, será criado um handoff técnico específico para implementação.
+6. O usuário já possui uma visão madura do mod; as perguntas devem **extrair decisões existentes**, não empurrar alternativas ou inventar direção criativa sem pedido.
+7. Sempre que possível, o planejamento será conduzido por sistemas concretos e relações entre eles, em vez de perguntas genéricas de “vibe”.
 
 ## Conceito central
 
@@ -70,12 +72,12 @@ O mod não deve revelar tudo de imediato. A curiosidade deve ser uma motivação
 
 Ainda precisa ser definido:
 
-- se o mistério será mais natural, sobrenatural, ancestral ou uma mistura;
-- quanto o mod depende de grandes distâncias no oceano;
-- se o conteúdo principal acontece na superfície, no fundo do mar ou em ambos;
-- como o jogador encontra pistas e novos locais;
-- quanto da exploração será livre e quanto terá uma progressão guiada;
-- se haverá regiões extremamente raras e difíceis de encontrar.
+- como o jogador entra no conteúdo do mod;
+- quais são os primeiros objetivos concretos;
+- quais sistemas desbloqueiam acesso a regiões mais perigosas;
+- quais tipos de locais e descobertas existem;
+- como o jogador é conduzido sem depender de instruções artificiais;
+- como exploração, loot, combate e progressão se conectam.
 
 ## Combate
 
