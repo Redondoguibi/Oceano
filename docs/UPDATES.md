@@ -45,6 +45,15 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 
 **Identidade:** oceano raro e muito profundo, marcado por paredes verticais moderadas e por pequenos aglomerados de cristais abissais roxos crescendo no fundo.
 
+### Entrada no bioma
+
+- O `Abyssal Ocean` não começa diretamente na superfície.
+- O jogador pode encontrar a região na superfície, mas precisa descer até uma profundidade/coordenada específica para realmente entrar no bioma.
+- O acesso prolongado depende do item **Abyssal Catalyst**.
+- Sem o Abyssal Catalyst, o jogador pode permanecer no bioma por aproximadamente **1 minuto contínuo**.
+- Após esse período, o jogador é devolvido para o local onde estava antes de entrar no bioma.
+- O comportamento exato do retorno ainda pode ser refinado tecnicamente, mas a regra de gameplay está definida.
+
 ### Geração e terreno
 
 - O `Abyssal Ocean` substitui o oceano profundo atual em parte da geração.
@@ -58,22 +67,47 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - Podem ser minerados com ferramenta de nível diamante.
 - Cada aglomerado contém um `magic_abyssal_crystal` em seu interior.
 - O `magic_abyssal_crystal` é mais útil/importante do que os blocos comuns do aglomerado.
-- As utilidades e receitas ainda precisam ser detalhadas.
+- Haverá também cristais personalizados raros gigantes.
+  - Mantêm a mesma linguagem estrutural dos cristais comuns, mas em escala grande.
+  - Servem principalmente para variedade visual e decoração, evitando repetição excessiva do ambiente.
+
+### Abyssal Catalyst
+
+- Item obrigatório para permanecer no Abyssal Ocean por longos períodos.
+- Sua receita exige:
+  - cristais abissais comuns;
+  - **1 `magic_abyssal_crystal`**.
+- Até agora, esta é a única utilidade totalmente definida para o `magic_abyssal_crystal`.
+
+### Criaturas e boss
+
+- **Peixe abissal genérico:** fauna básica do bioma.
+- **Leviathan:** boss principal associado ao Abyssal Ocean.
+  - Possui bastante design já planejado.
+  - Será detalhado separadamente em uma etapa própria da conversa.
+
+### Estrutura: navio naufragado personalizado
+
+- Estrutura inspirada no conceito do naufrágio vanilla, mas visualmente e estruturalmente própria.
+- Pode conter um mapa especial.
+- Esse mapa conduz o jogador até o **Leviathan**.
+- Portanto, o navio funciona também como elo entre exploração ambiental e progressão para o boss.
 
 ### Perigo
 
-- O bioma não é concebido em torno de uma grande ameaça ambiental ou criatura dominante.
+- O bioma não é concebido em torno de uma grande ameaça ambiental ou criatura dominante durante a exploração comum.
 - Mistério e exploração são mais importantes do que transformar o local em uma zona de perigo extremo.
+- A principal limitação sistêmica é a permanência temporária sem o Abyssal Catalyst.
 
 ### Ainda em aberto
 
 - Paleta completa do fundo e da água.
-- Estruturas.
-- Mobs específicos.
-- Bosses, se houver.
-- Loot.
-- Utilidades do cristal comum e do `magic_abyssal_crystal`.
-- Progressão associada ao bioma.
+- Aparência exata do peixe abissal.
+- Loot do navio.
+- Mecânicas e arena do Leviathan.
+- Outras utilidades dos cristais.
+- Forma exata do mapa do Leviathan.
+- Regras precisas de retorno após 1 minuto sem Catalyst.
 
 ## Update 2 — Kelp Forest
 
@@ -97,24 +131,43 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Estruturas
 
 - O foco principal são ruínas próprias do mod.
-- Elas devem lembrar a ideia de ruínas submarinas, mas não são as ruínas vanilla.
+- Elas são próximas das ruínas submarinas vanilla em conceito e escala.
+- Têm mais algas e maior presença de blocos como pedregulho com musgo e materiais semelhantes.
+- A intenção não é reinventar completamente o conceito das ruínas, mas dar a elas uma identidade própria coerente com a Kelp Forest.
 
 ### Criaturas planejadas
 
-- **Caranguejo temático:** criatura original do mod baseada no arquétipo de um caranguejo.
-- **Piranha elétrica:** criatura elétrica com integração planejada ao Iron's Spells 'n Spellbooks.
-  - A aura elétrica da criatura poderá ser coletada com uma garrafa.
-  - Isso resultará em uma garrafa elétrica relacionada/integrada ao conteúdo do Iron's Spellbooks.
-- **Tubarão temático:** criatura original baseada no arquétipo de tubarão.
-- **Kraken:** planejado para o mod, mas ainda não foi decidido se pertence ao Update 2 ou ao Update 3.
+- **Caranguejo temático**
+  - Vive no fundo do bioma.
+  - Locomoção inspirada no comportamento visual/movimento dos mobs do mod Nyl's Spiders.
+  - Não escala paredes.
+  - A referência principal é o jeito de andar, não o comportamento completo de aranha.
+
+- **Piranha elétrica**
+  - Peixe de tamanho médio.
+  - Hostil ao jogador.
+  - Possui uma aura elétrica ao redor do corpo.
+  - Aproximar-se dela causa dano elétrico.
+  - Também ataca com mordida.
+  - O dano total pode resultar da combinação entre mordida e eletricidade.
+  - Integração planejada com Iron's Spells 'n Spellbooks:
+    - a aura elétrica pode ser coletada com uma garrafa;
+    - isso gera uma garrafa elétrica compatível/relacionada ao mod.
+
+- **Tubarão temático**
+  - Modelo original e visualmente trabalhado.
+  - Criatura personalizada, não reprodução de uma espécie real.
+  - IA inicialmente pensada como comportamento aquático relativamente genérico.
+
+- **Kraken**
+  - Planejado para o mod.
+  - A decisão de pertencimento ao Update 2 ou 3 ainda está aberta.
 
 ### Ainda em aberto
 
-- Aparência das ruínas.
-- Comportamentos completos dos mobs.
+- Aparência final dos mobs.
 - Spawn e raridade de cada criatura.
-- Bosses.
-- Loot.
+- Loot das ruínas.
 - Recursos e crafting.
 - Detalhes técnicos da integração com Iron's Spellbooks.
 - Destino definitivo do Kraken.
@@ -138,38 +191,62 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
   - distância até a superfície/terra firme mais próxima;
   - outras regras ainda a definir.
 
-### Escuridão
+### Eventos já planejados
 
-- Haverá momentos/eventos de escuridão.
-- O efeito visual é semelhante ao `Darkness` do Minecraft, mas sem a pulsação característica.
+- **Tempestades personalizadas**
+  - Afetam fortemente o gameplay, não apenas a aparência.
+  - Alteram probabilidades de mobs, ilhas e outros eventos.
 
-### Tempestades
+- **Momentos de escuridão**
+  - Visualmente semelhantes ao efeito `Darkness` do Minecraft.
+  - Sem a pulsação característica do efeito vanilla.
 
-- Tempestades personalizadas afetam fortemente o gameplay, não apenas a aparência.
-- Elas podem aumentar ou diminuir probabilidades de:
-  - mobs;
-  - ilhas;
-  - outros acontecimentos/eventos.
-- Outros efeitos concretos ainda precisam ser definidos.
+- **Kraken**
+  - Evento/criatura marítima com maior chance de aparecer durante tempestades.
+  - Ainda não está decidido se pertence definitivamente ao Update 2 ou 3.
+
+- **Ilhas**
+  - A própria aparição de ilhas faz parte da dinâmica de exploração do update.
+
+- **Infestações de peixes**
+  - Grandes ocorrências de peixes durante a navegação.
+  - O tipo de peixe pode variar de acordo com o bioma.
+  - Há integração planejada com o mod **Aquaculture**.
 
 ### Ilhas
 
-- As ilhas são tratadas como estruturas que surgem/geram no oceano conforme a exploração do mundo.
-- A maioria das ilhas é persistente: depois de aparecer/gerar, não desaparece.
-- Pelo menos uma ilha planejada é temporária e desaparece.
-- Haverá uma organização interna em categorias/tipos.
-- Essa classificação não precisa ser apresentada explicitamente ao jogador.
-- O jogador poderá perceber padrões e categorias naturalmente com o tempo.
+As ilhas possuem uma classificação interna que o jogador não precisa conhecer explicitamente. Ele pode aprender padrões apenas por observação e experiência.
+
+Tipos já definidos:
+
+- ilha pequena sem conteúdo especial;
+- ilha pequena com baú;
+- ilha média sem conteúdo especial;
+- ilha média com baú;
+- ilha grande com baú;
+- **Ilha da Miragem**.
+
+### Ilha da Miragem
+
+- Ilha de tamanho enorme.
+- Possui baús.
+- É temporária.
+- Desaparece após aproximadamente **15 minutos**.
+- É, até agora, a ilha confirmada que não permanece no mundo.
+
+### Persistência
+
+- A maioria das ilhas permanece depois de ser gerada.
+- A Ilha da Miragem é uma exceção confirmada.
+- As ilhas são pensadas como estruturas geradas durante a exploração do mundo/oceano.
 
 ### Ainda em aberto
 
 - Catálogo completo de eventos.
 - Regras exatas de ativação.
-- Efeitos mecânicos das tempestades.
-- Tipos e categorias internas das ilhas.
-- Qual ilha desaparece e como isso funciona.
-- Conteúdo de cada ilha.
-- Relação do Kraken com este update.
+- Efeitos mecânicos completos das tempestades.
+- Conteúdo exato de cada categoria de ilha.
+- Como a Ilha da Miragem desaparece tecnicamente e o que acontece com jogadores/blocos nela.
 - Persistência e sincronização multiplayer.
 - Interação com barcos e outros meios de navegação.
 
