@@ -1,0 +1,13 @@
+{
+  "itemGroup.oceano": "Example Mod Tab",
+  "block.oceano.example_block": "Example Block",
+  "item.oceano.example_item": "Example Item",
+
+  "oceano.configuration.title": "Oceano Configs",
+  "oceano.configuration.section.oceano.common.toml": "Oceano Configs",
+  "oceano.configuration.section.oceano.common.toml.title": "Oceano Configs",
+  "oceano.configuration.items": "Item List",
+  "oceano.configuration.logDirtBlock": "Log Dirt Block",
+  "oceano.configuration.magicNumberIntroduction": "Magic Number Text",
+  "oceano.configuration.magicNumber": "Magic Number"
+}
