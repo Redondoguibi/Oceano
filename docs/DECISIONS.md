@@ -66,9 +66,13 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`.
 - **Decidido:** o `magic_abyssal_crystal` é necessário para fabricar o **Abyssal Catalyst**.
 - **Decidido:** sem o Abyssal Catalyst, o jogador pode permanecer no bioma por cerca de 1 minuto e depois é devolvido ao ponto anterior à entrada.
+- **Decidido:** o Abyssal Catalyst é permanente e não perde durabilidade/carga pelo uso.
 - **Decidido:** basta ter o Abyssal Catalyst no inventário; não é necessário segurá-lo ou equipá-lo.
+- **Decidido:** aos 30 segundos sem Catalyst, o jogador recebe Náusea.
 - **Decidido:** o local de retorno é o último local onde o jogador estava antes de entrar no bioma.
+- **Decidido:** ao atingir 1 minuto sem Catalyst, ocorre apenas o teleporte de retorno, sem efeito extra.
 - **Decidido:** sair do bioma antes do limite reseta completamente o contador; uma nova entrada começa um novo minuto.
+- **Decidido:** a progressão inicial do Abyssal Ocean consiste em uma primeira incursão curta sem Catalyst para obter cristais comuns + 1 `magic_abyssal_crystal`, fabricar o Catalyst e então liberar exploração prolongada.
 - **Decidido:** haverá um peixe abissal genérico.
 - **Decidido:** haverá o boss **Leviathan**.
 - **Decidido:** haverá um navio naufragado personalizado.
