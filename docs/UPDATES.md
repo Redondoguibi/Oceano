@@ -31,6 +31,10 @@ Cada update pode conter:
 - Sistemas centrais devem ser compartilháveis e extensíveis.
 - Conteúdo específico deve permanecer modular.
 
+## Convenção de criaturas "temáticas"
+
+Quando uma criatura é descrita como **temática**, significa que ela é uma criação original do mod inspirada na função ou arquétipo de um animal, mas não pretende ser uma reprodução de uma espécie real.
+
 ## Update 1 — Lançamento / Abyssal Ocean
 
 **Nome:** ainda sem nome específico; corresponde ao lançamento inicial do mod.
@@ -39,28 +43,37 @@ Cada update pode conter:
 
 **Bioma principal:** `Abyssal Ocean`.
 
-**Identidade:** um oceano extremamente profundo, marcado pela presença de muitos cristais abissais roxos.
+**Identidade:** oceano raro e muito profundo, marcado por paredes verticais moderadas e por pequenos aglomerados de cristais abissais roxos crescendo no fundo.
 
-### Já decidido
+### Geração e terreno
 
-- O bioma deve transmitir profundidade extrema.
-- Cristais abissais roxos são o elemento visual e temático dominante.
-- Esse conteúdo forma a primeira grande identidade jogável do mod.
+- O `Abyssal Ocean` substitui o oceano profundo atual em parte da geração.
+- É raro.
+- O fundo deve chegar aproximadamente à camada Y=0.
+- O relevo inclui paredes verticais, mas sem escala gigantesca; a referência de sensação é algo semelhante a Alex's Caves, porém mais contido.
+
+### Cristais abissais
+
+- São blocos que geram em pequenos formatos/aglomerações de cristal no chão.
+- Podem ser minerados com ferramenta de nível diamante.
+- Cada aglomerado contém um `magic_abyssal_crystal` em seu interior.
+- O `magic_abyssal_crystal` é mais útil/importante do que os blocos comuns do aglomerado.
+- As utilidades e receitas ainda precisam ser detalhadas.
+
+### Perigo
+
+- O bioma não é concebido em torno de uma grande ameaça ambiental ou criatura dominante.
+- Mistério e exploração são mais importantes do que transformar o local em uma zona de perigo extremo.
 
 ### Ainda em aberto
 
-- Forma de geração do bioma.
-- Profundidade exata e transição a partir de oceanos vanilla.
-- Geologia e relevo do fundo.
-- Blocos dos cristais e suas variações.
+- Paleta completa do fundo e da água.
 - Estruturas.
-- Mobs.
-- Bosses.
+- Mobs específicos.
+- Bosses, se houver.
 - Loot.
-- Recursos e crafting.
-- Mecânicas exclusivas.
-- Riscos ambientais.
-- Progressão dentro do bioma.
+- Utilidades do cristal comum e do `magic_abyssal_crystal`.
+- Progressão associada ao bioma.
 
 ## Update 2 — Kelp Forest
 
@@ -70,59 +83,95 @@ Cada update pode conter:
 
 **Bioma principal:** floresta de algas.
 
-**Identidade:** uma região oceânica dominada por uma floresta de algas e por conteúdo próprio associado ao ecossistema.
+**Identidade:** uma região oceânica extremamente densa, formada pelas próprias algas vanilla crescendo do fundo até próximo da superfície e tornando a visão e o deslocamento mais difíceis.
 
-### Já decidido
+### Vegetação e navegação
 
-- O bioma é uma floresta de algas.
-- O update deve expandir esse ambiente com conteúdo próprio, incluindo estruturas, mobs e outros elementos relacionados.
+- Usa as algas vanilla do Minecraft.
+- As algas se estendem do fundo até a camada superficial da água.
+- O bioma é muito denso e difícil de enxergar por dentro.
+- É possível atravessá-lo normalmente.
+- O mod altera o comportamento das algas nesse contexto: contato com elas desacelera o jogador.
+- A desaceleração lembra uma teia como conceito, mas deve ser consideravelmente menos intensa.
+
+### Estruturas
+
+- O foco principal são ruínas próprias do mod.
+- Elas devem lembrar a ideia de ruínas submarinas, mas não são as ruínas vanilla.
+
+### Criaturas planejadas
+
+- **Caranguejo temático:** criatura original do mod baseada no arquétipo de um caranguejo.
+- **Piranha elétrica:** criatura elétrica com integração planejada ao Iron's Spells 'n Spellbooks.
+  - A aura elétrica da criatura poderá ser coletada com uma garrafa.
+  - Isso resultará em uma garrafa elétrica relacionada/integrada ao conteúdo do Iron's Spellbooks.
+- **Tubarão temático:** criatura original baseada no arquétipo de tubarão.
+- **Kraken:** planejado para o mod, mas ainda não foi decidido se pertence ao Update 2 ou ao Update 3.
 
 ### Ainda em aberto
 
-- Aparência e escala das algas.
-- Densidade e navegabilidade.
-- Blocos e vegetação.
-- Estruturas.
-- Mobs.
+- Aparência das ruínas.
+- Comportamentos completos dos mobs.
+- Spawn e raridade de cada criatura.
 - Bosses.
 - Loot.
 - Recursos e crafting.
-- Mecânicas próprias do ecossistema.
-- Relação com outros biomas.
+- Detalhes técnicos da integração com Iron's Spellbooks.
+- Destino definitivo do Kraken.
 
 ## Update 3 — Navegação, clima e ilhas
 
 **Nome:** ainda não definido.
 
-**Tema central:** amplo; focado em tornar as navegações muito mais ricas e imprevisíveis.
+**Tema central:** amplo; focado em tornar as navegações muito mais ricas, variáveis e imprevisíveis.
 
 **Bioma principal:** nenhum bioma novo definido como eixo do update.
 
-**Identidade:** eventos climáticos e fenômenos durante navegações, além de ilhas que aparecem como estruturas geradas no oceano.
+**Identidade:** um sistema global de acontecimentos marítimos, clima e ilhas que reage ao contexto da navegação.
 
-### Já decidido
+### Regras dos eventos
 
-- Adicionará eventos climáticos próprios do mod durante navegações.
-- Haverá tempestades personalizadas.
+- Eventos podem ocorrer em qualquer oceano, inclusive oceanos vanilla.
+- A ocorrência não é puramente aleatória; existem regras e condições.
+- Exemplos já confirmados de condições:
+  - tempo que o jogador permanece no oceano;
+  - distância até a superfície/terra firme mais próxima;
+  - outras regras ainda a definir.
+
+### Escuridão
+
 - Haverá momentos/eventos de escuridão.
-- Adicionará ilhas.
-- As ilhas serão estruturas geradas no oceano.
-- O update não depende de um novo bioma próprio como eixo central.
-- O usuário considera este provavelmente o update tecnicamente mais complexo dos três.
+- O efeito visual é semelhante ao `Darkness` do Minecraft, mas sem a pulsação característica.
+
+### Tempestades
+
+- Tempestades personalizadas afetam fortemente o gameplay, não apenas a aparência.
+- Elas podem aumentar ou diminuir probabilidades de:
+  - mobs;
+  - ilhas;
+  - outros acontecimentos/eventos.
+- Outros efeitos concretos ainda precisam ser definidos.
+
+### Ilhas
+
+- As ilhas são tratadas como estruturas que surgem/geram no oceano conforme a exploração do mundo.
+- A maioria das ilhas é persistente: depois de aparecer/gerar, não desaparece.
+- Pelo menos uma ilha planejada é temporária e desaparece.
+- Haverá uma organização interna em categorias/tipos.
+- Essa classificação não precisa ser apresentada explicitamente ao jogador.
+- O jogador poderá perceber padrões e categorias naturalmente com o tempo.
 
 ### Ainda em aberto
 
-- Sistema que dispara eventos.
-- Tipos completos de eventos.
-- Duração, frequência e raridade.
-- Efeitos de gameplay das tempestades.
-- Funcionamento dos momentos de escuridão.
-- Tipos de ilhas.
-- Tamanho e geração das ilhas.
-- Estruturas, mobs e loot das ilhas.
-- Relação entre clima e ilhas.
-- Persistência e multiplayer.
-- Integração com barcos e outros meios de navegação.
+- Catálogo completo de eventos.
+- Regras exatas de ativação.
+- Efeitos mecânicos das tempestades.
+- Tipos e categorias internas das ilhas.
+- Qual ilha desaparece e como isso funciona.
+- Conteúdo de cada ilha.
+- Relação do Kraken com este update.
+- Persistência e sincronização multiplayer.
+- Interação com barcos e outros meios de navegação.
 
 ## Roteiro de extração
 
