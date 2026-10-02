@@ -16,52 +16,60 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** a documentação será atualizada continuamente no repositório.
 - **Decidido:** depois do design, o conteúdo será entregue ao Codex em um handoff consolidado para implementação.
 - **Decidido:** o usuário já possui o mod bem planejado mentalmente; o papel da conversa é extrair e formalizar essa visão.
-- **Decidido:** as perguntas devem ser específicas, focadas em sistemas e comportamento do mod, evitando questionários genéricos ou menus de alternativas salvo quando úteis para esclarecer algo.
+- **Decidido:** as perguntas devem ser específicas, focadas em sistemas e comportamento do mod.
+- **Decidido:** a numeração das perguntas é contínua entre updates, sem reiniciar por seção.
 
 ### Identidade
 - **Decidido:** o pilar principal do mod é **exploração misteriosa**.
 - **Decidido:** curiosidade, descoberta e sensação de desconhecido devem ser motores centrais da experiência.
-- **Decidido:** o jogador deve se sentir como um explorador investigando regiões, criaturas, vestígios e fenômenos que inicialmente não compreende.
+- **Decidido:** "mob temático" significa uma criatura original do mod baseada em um arquétipo animal, e não uma reprodução de uma espécie real.
 
 ### Estrutura de conteúdo
 - **Decidido:** o mod está planejado em 3 updates temáticos.
 - **Decidido:** cada update representa um conjunto temático de biomas/oceanos e seu conteúdo associado.
 - **Decidido:** os updates não são capítulos obrigatórios de progressão linear.
-- **Decidido:** a arquitetura deve ser modular para permitir novos conjuntos de biomas, criaturas, estruturas, loot e sistemas relacionados sem refazer a base.
+- **Decidido:** a arquitetura deve ser modular.
 
-### Update 1
-- **Decidido:** corresponde ao lançamento inicial do mod e ainda não possui nome próprio definido.
+### Update 1 — Abyssal Ocean
+- **Decidido:** corresponde ao lançamento inicial do mod e ainda não possui nome próprio.
 - **Decidido:** seu tema central são cristais abissais.
-- **Decidido:** adiciona o bioma `Abyssal Ocean`.
-- **Decidido:** o `Abyssal Ocean` é muito profundo e contém muitos cristais abissais roxos.
+- **Decidido:** o `Abyssal Ocean` substitui parcialmente o oceano profundo vanilla e é raro.
+- **Decidido:** chega aproximadamente a Y=0.
+- **Decidido:** possui paredes verticais moderadas.
+- **Decidido:** cristais abissais roxos geram em pequenos aglomerados no chão.
+- **Decidido:** os cristais exigem nível diamante para mineração.
+- **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`, mais útil/importante que os blocos comuns.
+- **Decidido:** o bioma não possui uma grande ameaça central como conceito.
 
-### Update 2
-- **Decidido:** chama-se `Kelp Forest`.
-- **Decidido:** é centrado em uma floresta de algas.
-- **Decidido:** o bioma principal é uma floresta de algas.
-- **Decidido:** o update expande esse ecossistema com estruturas, mobs e outros conteúdos próprios.
+### Update 2 — Kelp Forest
+- **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
+- **Decidido:** é muito denso e possui baixa visibilidade interna.
+- **Decidido:** algas desaceleram o jogador, mas muito menos que uma teia.
+- **Decidido:** terá ruínas próprias semelhantes em conceito às ruínas submarinas, mas não vanilla.
+- **Decidido:** terá um caranguejo temático.
+- **Decidido:** terá uma piranha elétrica.
+- **Decidido:** a piranha elétrica terá integração com Iron's Spellbooks permitindo coletar sua aura elétrica com uma garrafa.
+- **Decidido:** terá um tubarão temático.
+- **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
 
-### Update 3
-- **Decidido:** ainda não possui nome.
-- **Decidido:** tem escopo amplo e não é centrado em um novo bioma específico.
-- **Decidido:** adicionará eventos climáticos durante navegações.
-- **Decidido:** haverá tempestades personalizadas do mod.
-- **Decidido:** haverá momentos/eventos de escuridão.
-- **Decidido:** haverá ilhas geradas no oceano como estruturas.
-- **Observação de escopo:** o usuário acredita que provavelmente será o update tecnicamente mais complexo.
+### Update 3 — Navegação, clima e ilhas
+- **Decidido:** eventos podem ocorrer em qualquer oceano, inclusive vanilla.
+- **Decidido:** eventos obedecem condições como tempo em alto-mar e distância até terra/superfície próxima.
+- **Decidido:** momentos de escuridão lembram o efeito Darkness, mas sem pulsação.
+- **Decidido:** tempestades afetam fortemente o gameplay e alteram probabilidades de mobs, ilhas e outros eventos.
+- **Decidido:** ilhas são estruturas geradas conforme a exploração do oceano.
+- **Decidido:** a maioria das ilhas persiste depois de gerada.
+- **Decidido:** pelo menos uma ilha planejada desaparece.
+- **Decidido:** ilhas possuem categorias internas que não precisam ser explicitadas ao jogador.
 
 ## Em aberto
 
-- Entrada do jogador no conteúdo do mod.
-- Loop principal.
-- Progressão.
-- Detalhes completos do Abyssal Ocean.
-- Detalhes completos da Kelp Forest.
-- Sistema de eventos climáticos.
-- Sistema e conteúdo das ilhas.
-- Criaturas e bosses.
-- Estruturas.
-- Recursos, itens e loot.
-- Sistemas únicos.
-- Direção artística.
-- Escopo exato do lançamento inicial.
+- Utilidade exata dos cristais abissais.
+- Estruturas e mobs do Abyssal Ocean.
+- Detalhes das ruínas e mobs da Kelp Forest.
+- Destino do Kraken.
+- Catálogo e regras completas dos eventos climáticos.
+- Tipos de ilhas e conteúdo de cada uma.
+- Progressão global.
+- Itens, loot e equipamentos.
+- Direção artística e sonora.
