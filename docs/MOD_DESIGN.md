@@ -46,11 +46,15 @@ A conversa de design deve fechar, entre outros pontos:
 
 ## Conceito central
 
-**Em aberto.**
+**Decidido:** Oceano será um mod centrado em **exploração misteriosa**.
+
+O mar deve passar a sensação de que existem lugares, criaturas, vestígios e fenômenos que o jogador ainda não compreende completamente. A descoberta é mais importante do que simplesmente adicionar mais recursos ao oceano.
 
 ## Fantasia do jogador
 
-**Em aberto.**
+**Decidido:** o jogador deve se sentir como um explorador entrando em regiões desconhecidas e descobrindo segredos gradualmente.
+
+O mod não deve revelar tudo de imediato. A curiosidade deve ser uma motivação central para continuar navegando, mergulhando e investigando.
 
 ## Loop principal
 
@@ -62,7 +66,16 @@ A conversa de design deve fechar, entre outros pontos:
 
 ## Exploração
 
-**Em aberto.**
+**Decidido:** exploração misteriosa é o principal pilar de gameplay.
+
+Ainda precisa ser definido:
+
+- se o mistério será mais natural, sobrenatural, ancestral ou uma mistura;
+- quanto o mod depende de grandes distâncias no oceano;
+- se o conteúdo principal acontece na superfície, no fundo do mar ou em ambos;
+- como o jogador encontra pistas e novos locais;
+- quanto da exploração será livre e quanto terá uma progressão guiada;
+- se haverá regiões extremamente raras e difíceis de encontrar.
 
 ## Combate
 
