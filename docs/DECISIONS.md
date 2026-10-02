@@ -19,11 +19,20 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** as perguntas devem ser específicas, focadas em sistemas e comportamento do mod.
 - **Decidido:** a numeração das perguntas é contínua entre updates, sem reiniciar por seção.
 - **Decidido:** muitas partes do mod são inspiradas por referências externas já vistas pelo usuário; referências devem ser coletadas quando ajudarem a preservar a intenção visual, mecânica ou atmosférica.
+- **Decidido:** referências externas são inspiração, não instrução para cópia literal.
 
 ### Identidade
 - **Decidido:** o pilar principal do mod é **exploração misteriosa**.
 - **Decidido:** curiosidade, descoberta e sensação de desconhecido devem ser motores centrais da experiência.
 - **Decidido:** "mob temático" significa uma criatura original do mod baseada em um arquétipo animal, e não uma reprodução de uma espécie real.
+
+### Referências centrais
+- **Decidido:** Seaside Story é uma referência importante para o Abyssal Ocean, Kelp Forest e linguagem de criaturas.
+- **Decidido:** a atmosfera/tema do Leviathan de Cataclysm é uma referência para o Abyssal Ocean.
+- **Decidido:** Blox Fruits é referência principal para tempestades e dinâmica de ilhas do Update 3.
+- **Decidido:** o formato dos cristais abissais é criação própria, semelhante a uma pirâmide deformada sem base gigante.
+- **Decidido:** a imagem do Abyssal Catalyst foi salva em `docs/assets/abyssal_catalyst.png`.
+- **Decidido:** o Kraken ainda não possui referência definida e será desenvolvido mais tarde.
 
 ### Estrutura de conteúdo
 - **Decidido:** o mod está planejado em 3 updates temáticos.
@@ -76,7 +85,6 @@ Registro das decisões de design tomadas antes da implementação.
 
 ## Em aberto
 
-- Referências visuais/mecânicas exatas para os principais sistemas.
 - Receita completa do Abyssal Catalyst.
 - Aparência e comportamento do peixe abissal.
 - Detalhamento completo do Leviathan.
