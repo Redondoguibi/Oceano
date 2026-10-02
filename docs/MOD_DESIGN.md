@@ -111,6 +111,28 @@ Ainda precisa ser definido:
 
 **Em aberto.**
 
+## Estrutura de updates
+
+**Decidido:** Oceano está planejado em **3 updates temáticos**.
+
+Esses updates não representam fases lineares da progressão. Cada update funciona como um pacote de expansão focado em um conjunto de biomas/oceanos e no conteúdo associado a eles.
+
+A lógica é semelhante a mods que lançam conjuntos temáticos de conteúdo por atualização, mas no Oceano o foco principal são **biomas e ecossistemas**, não conjuntos de bosses.
+
+Cada update pode incluir, conforme definido depois:
+
+- novos biomas oceânicos;
+- estruturas;
+- criaturas;
+- recursos;
+- equipamentos;
+- loot;
+- eventos;
+- ambientação própria;
+- possíveis bosses ligados ao tema.
+
+A arquitetura do mod deve permitir que novos conjuntos temáticos sejam adicionados sem reestruturar os sistemas centrais.
+
 ## Escopo inicial
 
 **Em aberto.**
