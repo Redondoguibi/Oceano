@@ -95,6 +95,13 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - Esse mapa conduz o jogador até o **Leviathan**.
 - Portanto, o navio funciona também como elo entre exploração ambiental e progressão para o boss.
 
+### Água, névoa e visibilidade
+
+- A cor da água não muda conforme o jogador desce.
+- A densidade visual da água/névoa subaquática aumenta com a profundidade.
+- Consequentemente, a visibilidade diminui progressivamente durante a descida.
+- A identidade visual do bioma deve vir da profundidade, densidade, iluminação e elementos abissais, e não de uma troca brusca de cor da água.
+
 ### Perigo
 
 - O bioma não é concebido em torno de uma grande ameaça ambiental ou criatura dominante durante a exploração comum.
