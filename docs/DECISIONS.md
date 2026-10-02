@@ -18,6 +18,7 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o usuário já possui o mod bem planejado mentalmente; o papel da conversa é extrair e formalizar essa visão.
 - **Decidido:** as perguntas devem ser específicas, focadas em sistemas e comportamento do mod.
 - **Decidido:** a numeração das perguntas é contínua entre updates, sem reiniciar por seção.
+- **Decidido:** muitas partes do mod são inspiradas por referências externas já vistas pelo usuário; referências devem ser coletadas quando ajudarem a preservar a intenção visual, mecânica ou atmosférica.
 
 ### Identidade
 - **Decidido:** o pilar principal do mod é **exploração misteriosa**.
@@ -34,22 +35,30 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** corresponde ao lançamento inicial do mod e ainda não possui nome próprio.
 - **Decidido:** seu tema central são cristais abissais.
 - **Decidido:** o `Abyssal Ocean` substitui parcialmente o oceano profundo vanilla e é raro.
+- **Decidido:** o bioma efetivo começa apenas em uma profundidade específica, não diretamente na superfície.
 - **Decidido:** chega aproximadamente a Y=0.
 - **Decidido:** possui paredes verticais moderadas.
 - **Decidido:** cristais abissais roxos geram em pequenos aglomerados no chão.
+- **Decidido:** também existem formações gigantes raras de cristais para variedade visual.
 - **Decidido:** os cristais exigem nível diamante para mineração.
-- **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`, mais útil/importante que os blocos comuns.
-- **Decidido:** o bioma não possui uma grande ameaça central como conceito.
+- **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`.
+- **Decidido:** o `magic_abyssal_crystal` é necessário para fabricar o **Abyssal Catalyst**.
+- **Decidido:** sem o Abyssal Catalyst, o jogador pode permanecer no bioma por cerca de 1 minuto e depois é devolvido ao ponto anterior à entrada.
+- **Decidido:** haverá um peixe abissal genérico.
+- **Decidido:** haverá o boss **Leviathan**.
+- **Decidido:** haverá um navio naufragado personalizado.
+- **Decidido:** o navio pode fornecer um mapa que leva ao Leviathan.
 
 ### Update 2 — Kelp Forest
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
 - **Decidido:** é muito denso e possui baixa visibilidade interna.
 - **Decidido:** algas desaceleram o jogador, mas muito menos que uma teia.
-- **Decidido:** terá ruínas próprias semelhantes em conceito às ruínas submarinas, mas não vanilla.
-- **Decidido:** terá um caranguejo temático.
-- **Decidido:** terá uma piranha elétrica.
+- **Decidido:** terá ruínas próprias semelhantes em conceito às ruínas submarinas vanilla, mas com maior presença de algas e blocos musgosos.
+- **Decidido:** terá um caranguejo temático que vive no fundo e se move de forma inspirada em Nyl's Spiders, sem escalar paredes.
+- **Decidido:** terá uma piranha elétrica de tamanho médio.
+- **Decidido:** a piranha ataca com mordida e também causa dano elétrico por proximidade.
 - **Decidido:** a piranha elétrica terá integração com Iron's Spellbooks permitindo coletar sua aura elétrica com uma garrafa.
-- **Decidido:** terá um tubarão temático.
+- **Decidido:** terá um tubarão temático com modelo original e IA aquática relativamente genérica.
 - **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
 
 ### Update 3 — Navegação, clima e ilhas
@@ -57,19 +66,23 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** eventos obedecem condições como tempo em alto-mar e distância até terra/superfície próxima.
 - **Decidido:** momentos de escuridão lembram o efeito Darkness, mas sem pulsação.
 - **Decidido:** tempestades afetam fortemente o gameplay e alteram probabilidades de mobs, ilhas e outros eventos.
+- **Decidido:** o Kraken tem maior chance de aparecer durante tempestades.
+- **Decidido:** existirão infestações de peixes que variam por bioma e possuem integração planejada com Aquaculture.
 - **Decidido:** ilhas são estruturas geradas conforme a exploração do oceano.
-- **Decidido:** a maioria das ilhas persiste depois de gerada.
-- **Decidido:** pelo menos uma ilha planejada desaparece.
+- **Decidido:** categorias já planejadas incluem ilhas pequenas/médias/grandes, com ou sem baús conforme o tipo.
+- **Decidido:** a **Ilha da Miragem** é enorme, possui baús e desaparece após aproximadamente 15 minutos.
+- **Decidido:** a maioria das outras ilhas persiste.
 - **Decidido:** ilhas possuem categorias internas que não precisam ser explicitadas ao jogador.
 
 ## Em aberto
 
-- Utilidade exata dos cristais abissais.
-- Estruturas e mobs do Abyssal Ocean.
-- Detalhes das ruínas e mobs da Kelp Forest.
-- Destino do Kraken.
+- Referências visuais/mecânicas exatas para os principais sistemas.
+- Receita completa do Abyssal Catalyst.
+- Aparência e comportamento do peixe abissal.
+- Detalhamento completo do Leviathan.
+- Loot do navio e das ilhas.
+- Aparência final dos mobs da Kelp Forest.
+- Destino definitivo do Kraken.
 - Catálogo e regras completas dos eventos climáticos.
-- Tipos de ilhas e conteúdo de cada uma.
 - Progressão global.
-- Itens, loot e equipamentos.
 - Direção artística e sonora.
