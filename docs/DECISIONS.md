@@ -23,6 +23,12 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** curiosidade, descoberta e sensação de desconhecido devem ser motores centrais da experiência.
 - **Decidido:** o jogador deve se sentir como um explorador investigando regiões, criaturas, vestígios e fenômenos que inicialmente não compreende.
 
+### Estrutura de conteúdo
+- **Decidido:** o mod está planejado em 3 updates temáticos.
+- **Decidido:** cada update representa um conjunto temático de biomas/oceanos e seu conteúdo associado.
+- **Decidido:** os updates não são capítulos obrigatórios de progressão linear.
+- **Decidido:** a arquitetura deve ser modular para permitir novos conjuntos de biomas, criaturas, estruturas, loot e sistemas relacionados sem refazer a base.
+
 ## Em aberto
 
 - Entrada do jogador no conteúdo do mod.
