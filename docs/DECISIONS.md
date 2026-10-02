@@ -55,6 +55,7 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o `Abyssal Ocean` substitui parcialmente o oceano profundo vanilla e é raro.
 - **Decidido:** o bioma efetivo começa apenas em uma profundidade específica, não diretamente na superfície.
 - **Decidido:** chega aproximadamente a Y=0.
+- **Decidido:** o chão/fundo do Abyssal Ocean é formado principalmente por **Pedra Abissal**.
 - **Decidido:** possui paredes verticais moderadas.
 - **Decidido:** cristais abissais roxos geram em pequenos aglomerados no chão.
 - **Decidido:** também existem formações gigantes raras de cristais para variedade visual.
