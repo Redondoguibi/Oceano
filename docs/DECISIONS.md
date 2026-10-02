@@ -29,12 +29,19 @@ Registro das decisões de design tomadas antes da implementação.
 ### Referências centrais
 - **Decidido:** Seaside Story é uma referência importante para o Abyssal Ocean, Kelp Forest e linguagem de criaturas.
 - **Decidido:** o bioma **Crystal Melodie** de Seaside Story é a referência visual específica para parte da identidade do Abyssal Ocean.
+- **Decidido:** o chão/terreno do Crystal Melodie mostrado no vídeo não deve ser reproduzido no Abyssal Ocean.
 - **Decidido:** o tubarão de referência da Kelp Forest é o mob raro/especial exclusivo do bioma de floresta de algas do addon Seaside Story, não um tubarão genérico.
 - **Decidido:** a atmosfera/tema do Leviathan de Cataclysm é uma referência para o Abyssal Ocean.
 - **Decidido:** Blox Fruits é referência principal para tempestades e dinâmica de ilhas do Update 3.
 - **Decidido:** o formato dos cristais abissais é criação própria, semelhante a uma pirâmide deformada sem base gigante.
 - **Decidido:** a imagem do Abyssal Catalyst foi salva em `docs/assets/abyssal_catalyst.png`.
 - **Decidido:** o Kraken ainda não possui referência definida e será desenvolvido mais tarde.
+
+### Direção visual
+- **Decidido:** o Oceano deve usar um meio-termo visual entre o Minecraft vanilla e mods mais detalhados/ambiciosos.
+- **Decidido:** mobs podem ser mais trabalhados e personalizados que o vanilla, mas sem abandonar completamente a linguagem visual de Minecraft.
+- **Decidido:** itens comuns podem continuar usando sprites 2D tradicionais, como o Abyssal Catalyst.
+- **Decidido:** efeitos especiais podem ser mais expressivos quando a mecânica pedir, sem transformar todo o mod em algo visualmente exagerado.
 
 ### Estrutura de conteúdo
 - **Decidido:** o mod está planejado em 3 updates temáticos.
