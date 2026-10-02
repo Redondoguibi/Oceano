@@ -101,7 +101,16 @@ Ainda precisa ser definido:
 
 ## Direção visual
 
-**Em aberto.**
+**Decidido:** o padrão visual do Oceano fica em um meio-termo entre vanilla e mods visualmente mais detalhados.
+
+Diretrizes atuais:
+- manter leitura e coerência com Minecraft;
+- permitir modelos de mobs mais personalizados e trabalhados;
+- usar sprites 2D tradicionais para muitos itens;
+- permitir efeitos mais fortes quando fazem parte da identidade da mecânica;
+- evitar tanto o extremo "quase vanilla" quanto o extremo "hiperdetalhado fora da linguagem do jogo".
+
+**Nota importante sobre o Abyssal Ocean:** Crystal Melodie é referência de atmosfera, água, iluminação e sensação geral, mas **não** do chão/terreno do fundo.
 
 ## Direção sonora
 
