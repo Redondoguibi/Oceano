@@ -42,3 +42,23 @@ Cada update pode conter:
 ## Update 3
 
 **Tema: Em aberto.**
+
+
+## Roteiro de extração
+
+Para cada update, documentar:
+
+1. Nome oficial ou nome provisório.
+2. Tema central.
+3. Biomas incluídos.
+4. Identidade de cada bioma.
+5. Estruturas e pontos de interesse.
+6. Criaturas e mobs.
+7. Bosses, se houver.
+8. Recursos e blocos.
+9. Itens, equipamentos e loot.
+10. Mecânicas exclusivas.
+11. Como o jogador encontra ou acessa esse conteúdo.
+12. Relação com os outros updates.
+13. O que torna o update único dentro do mod.
+14. O que é obrigatório para a primeira implementação e o que pode ficar para depois.
