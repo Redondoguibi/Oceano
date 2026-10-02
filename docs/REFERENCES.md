@@ -22,7 +22,8 @@ Elas **não** significam copiar conteúdo literalmente. O objetivo é traduzir a
 Referência recorrente e importante para a identidade do mod.
 
 - **Abyssal Ocean:** o bioma **Crystal Melodie** é uma das referências que compõem a ideia do bioma, junto de criatividade e imaginação próprias.
-- O usuário enviou um vídeo de **Crystal Melodie** como referência visual direta. O vídeo reforça uma identidade com água/névoa fortemente arroxeada, baixa visibilidade, relevo submarino irregular e vegetação/formações muito luminosas em tons magenta, roxo e verde.
+- O usuário enviou um vídeo de **Crystal Melodie** como referência visual direta. O vídeo reforça uma identidade com água/névoa fortemente arroxeada, baixa visibilidade e formações muito luminosas em tons magenta, roxo e verde.
+- **Importante:** o chão/terreno do fundo visto no vídeo **não** deve ser usado como referência para o Abyssal Ocean. A referência de Crystal Melodie vale para atmosfera, iluminação, água, cristais e sensação geral, não para copiar o piso do bioma.
 - **Kelp Forest:** Seaside Story é referência para o conjunto do bioma — densidade, altura da vegetação, cor/atmosfera, mobs, estruturas e sensação geral.
 - **Caranguejo:** há um caranguejo de Seaside Story usado como referência.
 - **Tubarão temático:** a referência específica é o **mob raro/especial exclusivo do bioma de floresta de algas do addon Seaside Story**, e não um tubarão genérico do addon.
