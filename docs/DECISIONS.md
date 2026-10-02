@@ -66,6 +66,9 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`.
 - **Decidido:** o `magic_abyssal_crystal` é necessário para fabricar o **Abyssal Catalyst**.
 - **Decidido:** sem o Abyssal Catalyst, o jogador pode permanecer no bioma por cerca de 1 minuto e depois é devolvido ao ponto anterior à entrada.
+- **Decidido:** basta ter o Abyssal Catalyst no inventário; não é necessário segurá-lo ou equipá-lo.
+- **Decidido:** o local de retorno é o último local onde o jogador estava antes de entrar no bioma.
+- **Decidido:** sair do bioma antes do limite reseta completamente o contador; uma nova entrada começa um novo minuto.
 - **Decidido:** haverá um peixe abissal genérico.
 - **Decidido:** haverá o boss **Leviathan**.
 - **Decidido:** haverá um navio naufragado personalizado.
