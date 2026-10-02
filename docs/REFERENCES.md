@@ -17,38 +17,87 @@ Elas **não** significam copiar conteúdo literalmente. O objetivo é traduzir a
 
 ## Referências já citadas
 
+### Seaside Story
+
+Referência recorrente e importante para a identidade do mod.
+
+- **Abyssal Ocean:** o bioma de cristais de Seaside Story é uma das referências que compõem a ideia do bioma, junto de criatividade e imaginação próprias.
+- **Kelp Forest:** referência para a floresta de algas, especialmente densidade, leitura visual e sensação geral.
+- **Mobs da Kelp Forest:** referência visual/conceitual importante para o caranguejo, piranha elétrica, tubarão e a linguagem geral das criaturas temáticas.
+
+O objetivo não é reproduzir Seaside Story literalmente, e sim usar elementos percebidos pelo usuário como ponto de partida para uma identidade própria.
+
+### Cataclysm
+
+- **Abyssal Ocean:** o tema/atmosfera associado ao Leviathan de Cataclysm é uma referência para a sensação do bioma.
+- O Leviathan do Oceano possui conceito próprio e será detalhado separadamente.
+
 ### Alex's Caves
-- Usada como referência para a sensação de paredes/queda vertical no Abyssal Ocean.
+
+- Referência para a sensação de paredes/queda vertical no Abyssal Ocean.
 - O Oceano deve usar uma escala mais contida.
 
 ### Nyl's Spiders
-- Usada como referência para o movimento do caranguejo temático da Kelp Forest.
+
+- Referência para o movimento do caranguejo temático da Kelp Forest.
 - O caranguejo não deve escalar paredes.
 
+### Blox Fruits
+
+Referência principal para sistemas do Update 3.
+
+- **Tempestades:** inspiração para eventos climáticos durante navegação e para a forma como eles alteram a experiência marítima.
+- **Ilhas:** inspiração para a dinâmica de encontrar ilhas durante exploração marítima.
+- A implementação do Oceano deve adaptar essas ideias ao funcionamento e à estética do Minecraft, não copiá-las literalmente.
+
 ### Minecraft vanilla
+
 - Naufrágios: referência conceitual para o navio personalizado do Abyssal Ocean.
 - Ruínas submarinas: referência conceitual para as ruínas da Kelp Forest.
 - Kelp: a própria alga vanilla será usada na Kelp Forest.
 - Darkness: referência visual para eventos de escuridão, porém sem pulsação.
 
 ### Iron's Spells 'n Spellbooks
+
 - Integração planejada para a piranha elétrica e a garrafa elétrica.
 
 ### Aquaculture
+
 - Integração planejada para infestações de peixes no Update 3.
+
+## Referências criadas pelo próprio usuário
+
+### Cristais abissais
+
+- O formato não vem de uma referência externa específica.
+- O conceito foi imaginado pelo usuário.
+- A forma-base lembra uma **pirâmide deformada**, sem uma base enorme.
+- Existem versões pequenas em aglomerados e versões gigantes raras.
+
+### Abyssal Catalyst
+
+Referência visual salva no repositório:
+
+`docs/assets/abyssal_catalyst.png`
+
+- Item padrão em pixel art.
+- Silhueta pequena, cristalina/fragmentada e diagonal.
+- Predominantemente roxo escuro com destaques violeta mais brilhantes.
+- Não é pensado como um objeto 3D ou artefato volumoso; funciona visualmente como um item comum de inventário.
+
+### Kraken
+
+- Não possui uma referência externa principal definida.
+- O conceito é baseado principalmente em imaginação.
+- É uma das partes menos desenvolvidas do mod no momento e deve ser aprofundada mais tarde.
 
 ## Referências ainda importantes de coletar
 
-- visual completo do Abyssal Ocean;
-- aparência dos cristais abissais;
-- sensação/visual do Abyssal Catalyst;
-- design e combate do Leviathan;
-- aparência do peixe abissal;
-- aparência do caranguejo, piranha e tubarão temáticos;
-- densidade/visual desejado da Kelp Forest;
-- visual das tempestades;
-- funcionamento visual da escuridão;
-- visual e lógica das ilhas;
-- aparência específica da Ilha da Miragem;
-- comportamento/escala do Kraken;
-- referências de interface, partículas, sons e ambientação, se existirem.
+- combate, aparência e arena do Leviathan;
+- aparência específica do peixe abissal;
+- referências mais precisas de silhueta/cor para cada mob da Kelp Forest, se existirem;
+- visual detalhado das tempestades do Update 3;
+- comportamento de ondas/mar durante tempestades, se houver referência específica;
+- aparência e lógica detalhada da Ilha da Miragem;
+- interface, partículas, sons e ambientação;
+- referências para loot/equipamentos quando esses sistemas forem detalhados.
