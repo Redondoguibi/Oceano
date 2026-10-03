@@ -89,7 +89,9 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** se todos os participantes morrerem, o Leviathan desaparece.
 - **Decidido:** quem morrer enquanto ainda houver participantes vivos não pode reentrar naquela tentativa.
 - **Decidido:** os 3 "estágios" do Leviathan são apenas marcos de vida/progresso usados para disparar mecânicas; não implicam fases diferentes de IA ou moveset.
-- **Decidido:** no início da luta e ao atingir cada marco relevante surgem 5 cristais especiais aleatoriamente nas cavernas/buracos.
+- **Decidido:** os checkpoints do ciclo de cristais são 100%, 75%, 50% e 25% da vida.
+- **Decidido:** em 100%, surgem 5 cristais especiais, mas não há mini buraco negro.
+- **Decidido:** em 75%, 50% e 25%, o Leviathan recua, usa o mini buraco negro e os 5 cristais reaparecem aleatoriamente nas cavernas/buracos.
 - **Decidido:** enquanto pelo menos 1 cristal especial estiver vivo, o Leviathan é imortal.
 - **Decidido:** ataques confirmados: mordida, raio contínuo, 3 projéteis teleguiados, mini buraco negro no início de cada estágio e investida contextual contra jogadores nas cavernas.
 - **Decidido:** a interface deve comunicar separadamente vida do boss e quantidade de cristais vivos.
