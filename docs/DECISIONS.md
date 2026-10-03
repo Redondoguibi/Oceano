@@ -131,6 +131,7 @@ Registro das decisões de design tomadas antes da implementação.
 
 ### Update 3 — Navegação, clima e ilhas
 - **Decidido:** jogadores dentro de aproximadamente 150 blocos uns dos outros compartilham o mesmo contexto de eventos marítimos.
+- **Decidido:** um jogador que entre nesse grupo participa dos eventos compartilhados mesmo sem ter cumprido individualmente os 5 minutos de navegação.
 - **Decidido:** jogadores mais distantes podem ser tratados como grupos de eventos separados.
 
 - **Decidido:** eventos marítimos só começam a ser elegíveis após aproximadamente 5 minutos de navegação válida.
@@ -139,15 +140,17 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** ao detectar que o jogador está circulando repetidamente pela mesma área, o contador de 5 minutos é zerado e permanece pausado enquanto o comportamento continuar.
 - **Em aberto:** heurística exata para detectar que o jogador está dando voltas.
 - **Decidido:** distância da costa/terra é uma condição por limite mínimo, não uma chance que cresce gradualmente com a distância.
-- **Decidido:** o limite mínimo é aproximadamente 500 blocos da terra.
+- **Decidido:** o requisito de afastamento é validado por continuidade de biomas predominantemente aquáticos, não por detecção geométrica de terra.
+- **Decidido:** o limite de referência é aproximadamente 500 blocos dentro desse contexto aquático.
+- **Decidido:** entrar em um bioma que não seja predominantemente composto por água bloqueia/interrompe essa condição.
 - **Decidido:** múltiplos eventos podem ocorrer simultaneamente.
 - **Decidido:** tempestades aumentam a chance de outros eventos enquanto estão ativas.
 - **Decidido:** duração das tempestades é aleatória, entre aproximadamente 3 e 10 minutos.
-- **Decidido:** durante tempestades, há alta frequência de raios vanilla reais próximos ao jogador, com referência aproximada de 1 raio a cada 10 segundos.
+- **Decidido:** durante tempestades, há alta frequência de raios vanilla reais, com referência aproximada de 1 raio a cada 10 segundos **por grupo de jogadores**.
 - **Decidido:** tempestades tornam o fog/nevoeiro mais denso.
 - **Decidido:** o evento de escuridão dura aproximadamente entre 2 e 5 minutos e afeta jogadores em um raio de aproximadamente 150 blocos.
 - **Decidido:** a escuridão não possui efeito mecânico adicional além de escurecer a visão.
-- **Decidido:** ao terminar um evento de escuridão, obrigatoriamente ocorre outro evento que não seja tempestade.
+- **Decidido:** ao terminar um evento de escuridão, obrigatoriamente ocorre **imediatamente** outro evento que não seja tempestade.
 - **Decidido:** infestações de peixes criam uma aglomeração em massa próxima ao jogador e variam conforme o bioma.
 - **Decidido:** uma infestação pode ser perigosa quando a fauna local é hostil, como muitas piranhas na Kelp Forest.
 - **Decidido:** o Kraken só pode aparecer durante tempestades e continua sendo muito raro.
@@ -178,7 +181,9 @@ Registro das decisões de design tomadas antes da implementação.
 
 ### Propostas ainda não confirmadas
 
-- **Proposta:** após elegibilidade, tentar gerar um evento a cada 30s.
-- **Proposta:** começar com 10% de chance por tentativa, aumentando +2 p.p. por falha até 30%, e resetar após um evento.
-- **Proposta:** durante tempestade, multiplicar aproximadamente por 1,75x a chance de eventos compatíveis.
-- **Proposta:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
+- **Proposta aprovada:** após elegibilidade, tentar gerar um evento a cada 45s.
+- **Proposta aprovada:** começar com 10% de chance por tentativa, aumentando +2 p.p. por falha até 30%, e resetar após um evento.
+- **Proposta aprovada:** durante tempestade, multiplicar aproximadamente por 1,75x a chance de eventos compatíveis.
+- **Proposta aprovada:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
+
+- **Decidido:** não há outros tipos de evento marítimo planejados no momento além de tempestade, escuridão, infestação de peixes, ilhas e Kraken.
