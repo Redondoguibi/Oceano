@@ -296,7 +296,8 @@ Regras de raridade:
 - quanto maior e/ou mais recompensadora a ilha, mais rara ela tende a ser;
 - uma **ilha pequena com baú é mais rara que uma ilha média sem baú**;
 - portanto, tamanho e presença de recompensa são fatores independentes na raridade;
-- os pesos exatos ainda não foram definidos.
+- a **Ilha da Miragem** deve ser tratada como se estivesse aproximadamente **duas categorias de raridade além da ilha grande com baú**;
+- os pesos exatos ainda serão confirmados.
 
 Loot:
 
@@ -382,12 +383,15 @@ Durante uma tempestade:
 - O perigo depende das criaturas disponíveis naquele bioma.
 - Exemplo: na Kelp Forest, uma infestação pode incluir muitas piranhas e se tornar perigosa.
 - O sistema deve permitir integração com fauna de outros mods quando aplicável, incluindo a integração já planejada com Aquaculture.
+- O evento não possui um despawn especial ao terminar: os peixes gerados **continuam existindo normalmente no mundo**.
 
 ### Kraken
 
-- Se permanecer no Update 3, o Kraken funciona como um evento marítimo raro.
-- A única condição especial confirmada para seu aparecimento é haver uma **tempestade ativa**.
-- Mesmo durante tempestades, sua chance deve continuar **muito baixa**.
+- O Kraken permanece planejado, mas seu detalhamento completo será feito **mais tarde**.
+- Quando for implementado no sistema de eventos:
+  - só poderá aparecer durante uma **tempestade ativa**;
+  - mesmo durante tempestades, sua chance deverá continuar **muito baixa**.
+- O Update 3 não deve ficar bloqueado conceitualmente pela falta de detalhes do Kraken nesta etapa.
 
 
 ### Multiplayer e agrupamento de eventos
@@ -396,8 +400,9 @@ Durante uma tempestade:
 - Distância de agrupamento: aproximadamente **150 blocos entre jogadores**.
 - Jogadores dentro desse limite devem perceber/participar do mesmo evento relevante, em vez de cada um possuir uma tempestade ou escuridão completamente independente.
 - Um jogador que entre no grupo dentro dos 150 blocos **participa dos eventos do grupo mesmo que ainda não tenha cumprido individualmente os 5 minutos de navegação**.
-- Se os jogadores se afastarem além desse limite, poderão passar a ser tratados como grupos separados.
-- O comportamento exato de divisão/reunião de grupos ainda pode ser refinado tecnicamente.
+- Se os jogadores se afastarem além desse limite, passam a ser tratados como **grupos separados**.
+- Um evento compartilhado em andamento também deve ser **separado entre os novos grupos**, em vez de ficar associado somente a um deles.
+- O comportamento técnico exato da clonagem/divisão do estado do evento ainda pode ser refinado.
 
 ### Geração de ilhas
 
@@ -460,6 +465,12 @@ Objetivo da proposta:
 - permitir sobreposição durante tempestades;
 - não transformar o oceano em uma sequência constante de eventos.
 
+
+### Repetição de eventos
+
+- O **mesmo tipo de evento não deve ocorrer duas vezes seguidas** para o mesmo grupo.
+- Após um evento, esse tipo fica temporariamente excluído do próximo sorteio elegível.
+- Depois de outro evento diferente ocorrer, ele pode voltar normalmente ao pool.
 
 ### Catálogo atual de eventos
 
