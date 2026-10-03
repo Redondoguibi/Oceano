@@ -84,6 +84,15 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** haverá um navio naufragado personalizado.
 - **Decidido:** o navio possui 75% de chance de fornecer um mapa.
 - **Decidido:** o mapa leva à estrutura onde o Leviathan nasce, não diretamente a uma entidade já existente.
+- **Decidido:** a arena do Leviathan fica ainda mais funda que o Abyssal Ocean normal e contém cavernas/buracos laterais.
+- **Decidido:** entrar na área de luta spawna o Leviathan e impede a saída normal durante a tentativa.
+- **Decidido:** se todos os participantes morrerem, o Leviathan desaparece.
+- **Decidido:** quem morrer enquanto ainda houver participantes vivos não pode reentrar naquela tentativa.
+- **Decidido:** o Leviathan possui 3 estágios.
+- **Decidido:** no início da luta e de cada estágio surgem 5 cristais especiais aleatoriamente nas cavernas/buracos.
+- **Decidido:** enquanto pelo menos 1 cristal especial estiver vivo, o Leviathan é imortal.
+- **Decidido:** ataques confirmados: mordida, raio contínuo, 3 projéteis teleguiados, mini buraco negro no início de cada estágio e investida contextual contra jogadores nas cavernas.
+- **Decidido:** a interface deve comunicar separadamente vida do boss e quantidade de cristais vivos.
 
 ### Update 2 — Kelp Forest
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
