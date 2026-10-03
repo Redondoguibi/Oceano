@@ -276,6 +276,12 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 
 As ilhas possuem uma classificação interna que o jogador não precisa conhecer explicitamente. Ele pode aprender padrões apenas por observação e experiência.
 
+Tamanhos aproximados:
+
+- **pequena:** cerca de 20 blocos;
+- **média:** cerca de 50 blocos;
+- **grande:** cerca de 100 blocos.
+
 Tipos já definidos:
 
 - ilha pequena sem conteúdo especial;
@@ -285,12 +291,33 @@ Tipos já definidos:
 - ilha grande com baú;
 - **Ilha da Miragem**.
 
+Regras de raridade:
+
+- quanto maior e/ou mais recompensadora a ilha, mais rara ela tende a ser;
+- uma **ilha pequena com baú é mais rara que uma ilha média sem baú**;
+- portanto, tamanho e presença de recompensa são fatores independentes na raridade;
+- os pesos exatos ainda não foram definidos.
+
+Loot:
+
+- ilhas com baú usam loot equivalente ao de um **baú de tesouro**;
+- não há loot exclusivo próprio das ilhas normais definido neste momento.
+
+Visual e estrutura:
+
+- ilhas normais possuem aparência **natural e comum**, coerente com ilhas Minecraft: areia, terra, vegetação e materiais naturais;
+- elas não descem como uma grande massa de pedra até o fundo do oceano;
+- visualmente, ficam como uma massa de terreno que **“flutua” na superfície da água**, sem coluna rochosa de sustentação até o fundo.
+
 ### Ilha da Miragem
 
 - Ilha de tamanho enorme.
 - Possui baús.
 - É temporária.
-- Desaparece após aproximadamente **15 minutos**.
+- O contador de aproximadamente **15 minutos começa no momento em que a ilha é gerada**, e não quando um jogador chega perto.
+- Ao fim do tempo, a ilha desaparece completamente.
+- Jogadores que estiverem sobre/nela no momento simplesmente **caem na água**.
+- Blocos colocados pelo jogador na ilha **não desaparecem junto com ela**.
 - É, até agora, a ilha confirmada que não permanece no mundo.
 
 ### Persistência
@@ -379,13 +406,12 @@ Durante uma tempestade:
 
 ### Ainda em aberto
 
-- Catálogo completo de eventos.
-- Regras exatas de ativação.
-- Efeitos mecânicos completos das tempestades.
-- Conteúdo exato de cada categoria de ilha.
-- Como a Ilha da Miragem desaparece tecnicamente e o que acontece com jogadores/blocos nela.
-- Persistência e sincronização multiplayer.
-- Interação com barcos e outros meios de navegação.
+- Pesos exatos de cada categoria de ilha.
+- Raridade específica da Ilha da Miragem.
+- Heurística exata para detectar navegação em círculos.
+- Regras de repetição/cooldown entre eventos iguais.
+- Persistência e sincronização multiplayer em casos-limite.
+- Detalhamento final do Kraken.
 
 ## Roteiro de extração
 
