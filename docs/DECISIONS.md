@@ -79,9 +79,12 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** ao atingir 1 minuto sem Catalyst, ocorre apenas o teleporte de retorno, sem efeito extra.
 - **Decidido:** sair do bioma antes do limite reseta completamente o contador; uma nova entrada começa um novo minuto.
 - **Decidido:** a progressão inicial do Abyssal Ocean consiste em uma primeira incursão curta sem Catalyst para obter cristais comuns + 1 `magic_abyssal_crystal`, fabricar o Catalyst e então liberar exploração prolongada.
-- **Decidido:** haverá um peixe abissal genérico.
+- **Decidido:** a fauna básica do Abyssal Ocean inclui o **Abyssal Angler**.
+- **Decidido:** o Abyssal Angler é principalmente fauna ambiental, sem mecânica especial planejada no momento.
+- **Decidido:** seu conceito visual é inspirado no peixe-diabo-negro.
 - **Decidido:** haverá o boss **Leviathan**.
 - **Decidido:** haverá um navio naufragado personalizado.
+- **Decidido:** o naufrágio usa loot próprio do Oceano, mas semelhante em filosofia/composição ao loot de naufrágio vanilla.
 - **Decidido:** o navio possui 75% de chance de fornecer um mapa.
 - **Decidido:** o mapa leva à estrutura onde o Leviathan nasce, não diretamente a uma entidade já existente.
 - **Decidido:** a arena do Leviathan fica ainda mais funda que o Abyssal Ocean normal e contém cavernas/buracos laterais.
@@ -166,12 +169,13 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o Kraken tem maior chance de aparecer durante tempestades.
 - **Decidido:** existirão infestações de peixes que variam por bioma e possuem integração planejada com Aquaculture.
 - **Decidido:** ilhas são estruturas geradas conforme a exploração do oceano.
-- **Decidido:** categorias já planejadas incluem ilhas pequenas/médias/grandes, com ou sem baús conforme o tipo.
+- **Decidido:** categorias planejadas: pequena sem baú, pequena com baú, média sem baú, média com baú, grande com baú e Mirage.
+- **Decidido:** não haverá ilha grande sem baú, para evitar uma recompensa decepcionante em uma geração tão grande.
 - **Decidido:** tamanhos aproximados: pequena ~20 blocos, média ~50 blocos e grande ~100 blocos.
 - **Decidido:** ilhas mais recompensadoras e/ou maiores tendem a ser mais raras.
 - **Decidido:** uma ilha pequena com baú é mais rara que uma ilha média sem baú; tamanho e recompensa afetam a raridade separadamente.
 - **Decidido:** a Ilha da Miragem deve funcionar como se estivesse aproximadamente duas categorias de raridade além da ilha grande com baú.
-- **Em aberto:** pesos exatos de raridade de cada categoria de ilha.
+- **Em aberto:** pesos exatos de raridade das 6 categorias de ilha confirmadas.
 - **Decidido:** baús das ilhas usam loot equivalente ao de um baú de tesouro.
 - **Decidido:** ilhas normais têm aparência natural/comum, sem temática visual específica por categoria.
 - **Decidido:** ilhas não possuem uma grande massa de pedra sustentando-as até o fundo; parecem “flutuar” na superfície da água.
