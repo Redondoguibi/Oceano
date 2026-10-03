@@ -65,6 +65,12 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** os cristais exigem nível diamante para mineração.
 - **Decidido:** cada aglomerado contém um `magic_abyssal_crystal`.
 - **Decidido:** o `magic_abyssal_crystal` é necessário para fabricar o **Abyssal Catalyst**.
+- **Decidido:** a receita do Catalyst é:
+  - `a c m`
+  - `a s c`
+  - `s a a`
+  - com `m` = magic crystal, `c` = cristal abissal, `s` = graveto e `a` = vazio.
+- **Decidido:** cada aglomerado possui exatamente 1 `magic_abyssal_crystal`.
 - **Decidido:** sem o Abyssal Catalyst, o jogador pode permanecer no bioma por cerca de 1 minuto e depois é devolvido ao ponto anterior à entrada.
 - **Decidido:** o Abyssal Catalyst é permanente e não perde durabilidade/carga pelo uso.
 - **Decidido:** basta ter o Abyssal Catalyst no inventário; não é necessário segurá-lo ou equipá-lo.
@@ -76,7 +82,8 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** haverá um peixe abissal genérico.
 - **Decidido:** haverá o boss **Leviathan**.
 - **Decidido:** haverá um navio naufragado personalizado.
-- **Decidido:** o navio pode fornecer um mapa que leva ao Leviathan.
+- **Decidido:** o navio possui 75% de chance de fornecer um mapa.
+- **Decidido:** o mapa leva à estrutura onde o Leviathan nasce, não diretamente a uma entidade já existente.
 
 ### Update 2 — Kelp Forest
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
