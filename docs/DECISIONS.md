@@ -130,6 +130,25 @@ Registro das decisões de design tomadas antes da implementação.
 - **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
 
 ### Update 3 — Navegação, clima e ilhas
+
+- **Decidido:** eventos marítimos só começam a ser elegíveis após aproximadamente 5 minutos de navegação válida.
+- **Decidido:** navegação válida exige estar em um barco em movimento dentro de um bioma composto predominantemente por água.
+- **Decidido:** a detecção por característica aquática do bioma é preferida para compatibilidade indireta com mods de oceano.
+- **Desejável:** detectar, se viável, quando o jogador está apenas circulando repetidamente pela mesma área; a heurística exata ainda está em aberto.
+- **Decidido:** distância da costa/terra é uma condição por limite mínimo, não uma chance que cresce gradualmente com a distância.
+- **Em aberto:** valor exato do limite de distância da costa/terra.
+- **Decidido:** múltiplos eventos podem ocorrer simultaneamente.
+- **Decidido:** tempestades aumentam a chance de outros eventos enquanto estão ativas.
+- **Decidido:** duração das tempestades é aleatória.
+- **Decidido:** durante tempestades, há alta frequência de raios próximos ao jogador, com referência aproximada de 1 raio a cada 10 segundos.
+- **Decidido:** tempestades tornam o fog/nevoeiro mais denso.
+- **Decidido:** o evento de escuridão tem duração aleatória e afeta jogadores em um raio de aproximadamente 50 blocos.
+- **Decidido:** a escuridão não possui efeito mecânico adicional além de escurecer a visão.
+- **Decidido:** ao terminar um evento de escuridão, obrigatoriamente ocorre outro evento que não seja tempestade.
+- **Decidido:** infestações de peixes criam uma aglomeração em massa próxima ao jogador e variam conforme o bioma.
+- **Decidido:** uma infestação pode ser perigosa quando a fauna local é hostil, como muitas piranhas na Kelp Forest.
+- **Decidido:** o Kraken só pode aparecer durante tempestades e continua sendo muito raro.
+- **Decidido:** ilhas de evento só podem ser geradas em chunks novos, não em regiões já exploradas.
 - **Decidido:** eventos podem ocorrer em qualquer oceano, inclusive vanilla.
 - **Decidido:** eventos obedecem condições como tempo em alto-mar e distância até terra/superfície próxima.
 - **Decidido:** momentos de escuridão lembram o efeito Darkness, mas sem pulsação.
