@@ -44,15 +44,19 @@ As imagens são referências aproximadas, não necessariamente o modelo final.
   - o jogador morto **não pode retornar à arena naquela tentativa**.
 - O sistema precisa manter explicitamente o conjunto de participantes elegíveis durante cada tentativa.
 
-## Estrutura de estágios
+## Marcos de vida ("estágios")
 
-- O Leviathan possui **3 estágios**.
-- A luta começa já com a mecânica de cristais.
-- Ao início da luta e ao início de cada novo estágio:
-  - **5 cristais especiais** aparecem aleatoriamente;
-  - os locais são escolhidos entre as cavernas/buracos da arena.
+- O termo **estágio** é usado apenas como uma medida/marco de progresso da vida do Leviathan.
+- Não representa, por si só, uma mudança de IA, moveset, aparência, velocidade ou comportamento.
+- A função desses marcos é determinar quando acontecem novamente:
+  - o **mini buraco negro**;
+  - o spawn de **5 cristais especiais**.
+- A luta começa já com esse ciclo.
+- Ao atingir cada marco relevante:
+  - o evento de mini buraco negro acontece;
+  - 5 cristais especiais aparecem aleatoriamente nas cavernas/buracos da arena.
 - Enquanto **pelo menos 1 desses cristais estiver vivo**, o Leviathan é **imortal**.
-- Portanto, cada ciclo exige localizar e destruir os 5 cristais antes de voltar a causar dano real ao boss.
+- O jogador precisa destruir os 5 para voltar a causar dano efetivo no boss.
 - A interface deve comunicar quantos cristais continuam vivos.
 - Antigas bossbars enviadas pelo usuário servem apenas como referência conceitual; não serão reutilizadas literalmente.
 
@@ -115,8 +119,8 @@ As bossbars antigas enviadas anteriormente são somente referência para essa di
 - tamanho exato do Leviathan;
 - vida total;
 - dano de cada ataque;
-- thresholds que separam os 3 estágios;
-- diferenças específicas de comportamento entre estágio 1, 2 e 3;
+- thresholds/marcos de vida que disparam os ciclos de cristais;
+- sequência temporal exata entre atingir o marco, mini buraco negro e spawn dos cristais;
 - funcionamento exato do mini buraco negro;
 - duração e rastreamento do raio contínuo;
 - velocidade e comportamento dos projéteis teleguiados;
