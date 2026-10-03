@@ -51,10 +51,14 @@ As imagens são referências aproximadas, não necessariamente o modelo final.
 - A função desses marcos é determinar quando acontecem novamente:
   - o **mini buraco negro**;
   - o spawn de **5 cristais especiais**.
-- A luta começa já com esse ciclo.
-- Ao atingir cada marco relevante:
-  - o evento de mini buraco negro acontece;
-  - 5 cristais especiais aparecem aleatoriamente nas cavernas/buracos da arena.
+- Checkpoints confirmados: **100%, 75%, 50% e 25%** da vida.
+- No **100%**:
+  - 5 cristais especiais aparecem;
+  - **não** há mini buraco negro.
+- Ao atingir **75%, 50% e 25%**:
+  - o Leviathan recua;
+  - usa o mini buraco negro;
+  - os 5 cristais especiais reaparecem aleatoriamente nas cavernas/buracos da arena.
 - Enquanto **pelo menos 1 desses cristais estiver vivo**, o Leviathan é **imortal**.
 - O jogador precisa destruir os 5 para voltar a causar dano efetivo no boss.
 - A interface deve comunicar quantos cristais continuam vivos.
@@ -119,8 +123,9 @@ As bossbars antigas enviadas anteriormente são somente referência para essa di
 - tamanho exato do Leviathan;
 - vida total;
 - dano de cada ataque;
-- thresholds/marcos de vida que disparam os ciclos de cristais;
-- sequência temporal exata entre atingir o marco, mini buraco negro e spawn dos cristais;
+- duração e comportamento exato do mini buraco negro;
+- comportamento do Leviathan enquanto os cristais estão vivos;
+- propriedades dos cristais especiais (vida, hitbox, resistência, feedback visual/sonoro);
 - funcionamento exato do mini buraco negro;
 - duração e rastreamento do raio contínuo;
 - velocidade e comportamento dos projéteis teleguiados;
