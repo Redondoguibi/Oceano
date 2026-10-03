@@ -150,6 +150,13 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 
 **Identidade:** uma região oceânica extremamente densa, formada pelas próprias algas vanilla crescendo do fundo até próximo da superfície e tornando a visão e o deslocamento mais difíceis.
 
+### Geração
+
+- A Kelp Forest é rara, mas não extremamente rara.
+- É **mais comum que o Abyssal Ocean**.
+- Pode gerar apenas em oceanos vanilla que naturalmente possuem algas.
+- A profundidade é normal para um oceano vanilla; o bioma não depende de um relevo especialmente profundo.
+
 ### Vegetação e navegação
 
 - Usa as algas vanilla do Minecraft.
@@ -165,6 +172,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - Elas são próximas das ruínas submarinas vanilla em conceito e escala.
 - Têm mais algas e maior presença de blocos como pedregulho com musgo e materiais semelhantes.
 - A intenção não é reinventar completamente o conceito das ruínas, mas dar a elas uma identidade própria coerente com a Kelp Forest.
+- O loot segue o mesmo padrão das ruínas vanilla; não há loot exclusivo planejado para elas neste momento.
 
 ### Criaturas planejadas
 
@@ -193,6 +201,13 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - **Kraken**
   - Planejado para o mod.
   - A decisão de pertencimento ao Update 2 ou 3 ainda está aberta.
+
+### Relação entre criaturas e recursos
+
+- O caranguejo, a piranha elétrica e o tubarão não possuem relação especial entre si planejada no momento.
+- Não há cadeia alimentar ou sistema ecológico específico confirmado entre eles.
+- A garrafa elétrica é um item de integração interessante, mas **não é um recurso central/importante da progressão**.
+- Por enquanto, não há outro recurso exclusivo importante da Kelp Forest definido.
 
 ### Ainda em aberto
 
