@@ -129,3 +129,10 @@ Arquivos de referência salvos no repositório:
 - aparência e lógica detalhada da Ilha da Miragem;
 - interface, partículas, sons e ambientação;
 - referências para loot/equipamentos quando esses sistemas forem detalhados.
+
+
+### Abyssal Angler
+
+- Referência biológica/visual: **peixe-diabo-negro**.
+- Uso da referência: silhueta, sensação abissal e identidade do peixe.
+- Não deve ser tratado como reprodução realista; o mob continua seguindo a direção visual própria do Oceano.
