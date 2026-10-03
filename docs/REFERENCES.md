@@ -99,6 +99,20 @@ Referência visual salva no repositório:
 - Predominantemente roxo escuro com destaques violeta mais brilhantes.
 - Não é pensado como um objeto 3D ou artefato volumoso; funciona visualmente como um item comum de inventário.
 
+### Leviathan — Abyssal Ball
+
+Arquivos de referência salvos no repositório:
+
+- `docs/assets/leviathan/abyssal_ball_model.java`
+- `docs/assets/leviathan/abyssal_ball_idle.java`
+- `docs/assets/leviathan/abyssal_ball.png`
+
+- O projétil é usado no ataque em que o Leviathan dispara três bolas teleguiadas.
+- O modelo foi exportado do Blockbench.
+- Possui partes separadas para corpo, carga e contorno.
+- A animação idle usa rotação contínua para reforçar a sensação de energia carregada.
+- Esses arquivos são referência e deverão ser adaptados para a arquitetura final em NeoForge 1.21.1.
+
 ### Kraken
 
 - Não possui uma referência externa principal definida.
