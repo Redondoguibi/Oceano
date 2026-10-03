@@ -311,22 +311,28 @@ Um jogador entra no estado de **navegação marítima elegível para eventos** q
 
 Essa detecção por característica do bioma é intencional para oferecer **compatibilidade indireta com mods que adicionam oceanos/biomas aquáticos**.
 
-Também é desejável, se tecnicamente viável, detectar quando o jogador está apenas **dando muitas voltas na mesma região**, para evitar que circular artificialmente em um espaço pequeno seja equivalente a navegação real. A heurística exata ainda está em aberto.
+Também é desejável detectar quando o jogador está apenas **dando muitas voltas na mesma região**, para evitar que circular artificialmente em um espaço pequeno seja equivalente a navegação real.
+- Se o sistema detectar navegação em círculos/repetição excessiva:
+  - o contador de elegibilidade é **zerado**;
+  - o contador permanece **pausado** enquanto o comportamento continuar.
+- A heurística exata de detecção ainda está em aberto.
 
-A distância da costa/terra funciona como um **limite mínimo**, não como uma progressão gradual de chance. O valor exato desse limite ainda precisa ser definido.
+A distância da costa/terra funciona como um **limite mínimo**, não como uma progressão gradual de chance.
+- Limite confirmado: aproximadamente **500 blocos da terra**.
 
 ### Concorrência de eventos
 
 - Mais de um evento pode estar ativo ao mesmo tempo.
 - Uma **tempestade aumenta a chance de outros eventos ocorrerem** enquanto está ativa.
 - Isso permite combinações como tempestade + infestação de peixes + Kraken.
-- A duração de tempestades é **aleatória**.
+- A duração de tempestades é **aleatória**, variando aproximadamente entre **3 e 10 minutos**.
 
 ### Tempestades
 
 Durante uma tempestade:
 
-- há muitos **raios** caindo nas proximidades;
+- há muitos **raios vanilla reais** caindo nas proximidades;
+- eles funcionam como raios normais do Minecraft, podendo atingir entidades e causar seus efeitos normais;
 - referência atual de intensidade: aproximadamente **1 raio a cada 10 segundos**;
 - o fog/nevoeiro fica **mais denso**, reduzindo a visibilidade;
 - a tempestade aumenta a chance de outros eventos marítimos;
@@ -334,8 +340,8 @@ Durante uma tempestade:
 
 ### Evento de escuridão
 
-- A duração é **aleatória**.
-- O efeito escurece a visão de todos os jogadores em um raio de aproximadamente **50 blocos**.
+- A duração é **aleatória**, variando aproximadamente entre **2 e 5 minutos**.
+- O efeito escurece a visão de todos os jogadores em um raio de aproximadamente **150 blocos**.
 - Não altera outras mecânicas diretamente; é um evento principalmente de pressão/atmosfera.
 - Quando a escuridão termina, **obrigatoriamente é disparado algum outro evento que não seja uma tempestade**.
 
@@ -352,6 +358,15 @@ Durante uma tempestade:
 - Se permanecer no Update 3, o Kraken funciona como um evento marítimo raro.
 - A única condição especial confirmada para seu aparecimento é haver uma **tempestade ativa**.
 - Mesmo durante tempestades, sua chance deve continuar **muito baixa**.
+
+
+### Multiplayer e agrupamento de eventos
+
+- Jogadores suficientemente próximos compartilham o mesmo contexto de eventos marítimos.
+- Distância de agrupamento: aproximadamente **150 blocos entre jogadores**.
+- Jogadores dentro desse limite devem perceber/participar do mesmo evento relevante, em vez de cada um possuir uma tempestade ou escuridão completamente independente.
+- Se os jogadores se afastarem além desse limite, poderão passar a ser tratados como grupos separados.
+- O comportamento exato de divisão/reunião de grupos ainda pode ser refinado tecnicamente.
 
 ### Geração de ilhas
 
@@ -386,3 +401,31 @@ Para cada update, documentar:
 12. Relação com os outros updates.
 13. O que torna o update único dentro do mod.
 14. O que é obrigatório para a primeira implementação e o que pode ficar para depois.
+
+
+### Proposta — sorteio de eventos marítimos
+
+Esta seção é uma **proposta de design**, não uma decisão final.
+
+Depois de o grupo ficar elegível (5 min de navegação válida + 500 blocos da terra):
+
+1. O sistema faz uma tentativa de evento a cada **30 segundos**.
+2. A chance-base começa em **10%**.
+3. Cada tentativa sem evento aumenta a chance em **+2 pontos percentuais**, até um teto de **30%**.
+4. Quando um evento acontece, a chance volta para 10%.
+5. Eventos possuem pesos diferentes; eventos raros podem ter peso muito menor que eventos comuns.
+6. Durante tempestades:
+   - a chance de novos eventos pode ser multiplicada por cerca de **1,75x**;
+   - eventos compatíveis podem ocorrer simultaneamente.
+7. O Kraken continua usando uma regra própria:
+   - só entra no pool se houver tempestade;
+   - mesmo assim recebe um peso extremamente baixo.
+8. O evento de escuridão mantém sua regra especial:
+   - ao terminar, força um sorteio entre eventos válidos **excluindo tempestade**.
+9. Eventos de ilha só entram no sorteio quando houver possibilidade real de geração em chunks novos.
+
+Objetivo da proposta:
+- evitar longos períodos sem nada acontecer;
+- manter imprevisibilidade;
+- permitir sobreposição durante tempestades;
+- não transformar o oceano em uma sequência constante de eventos.
