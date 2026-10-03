@@ -95,6 +95,13 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** enquanto pelo menos 1 cristal especial estiver vivo, o Leviathan é imortal.
 - **Decidido:** ataques confirmados: mordida, raio contínuo, 3 projéteis teleguiados, mini buraco negro no início de cada estágio e investida contextual contra jogadores nas cavernas.
 - **Decidido:** a interface deve comunicar separadamente vida do boss e quantidade de cristais vivos.
+- **Decidido:** os cristais especiais da bossfight são entidades com 30 de vida e são destruídos atacando-os.
+- **Decidido:** o Leviathan continua atacando normalmente enquanto os cristais estão vivos.
+- **Decidido:** o mini buraco negro puxa jogadores em um raio de 20 blocos.
+- **Decidido:** jogadores a até 3 blocos do mini buraco negro recebem dano.
+- **Decidido:** o mini buraco negro dura 10s se não houver jogador no raio de 20 blocos e 20s se houver pelo menos 1 jogador nesse raio.
+- **Em aberto:** valor do dano do mini buraco negro.
+- **Em aberto:** loot/recompensa do Leviathan ainda não foi planejado.
 
 ### Update 2 — Kelp Forest
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
