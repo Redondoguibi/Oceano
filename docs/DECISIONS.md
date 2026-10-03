@@ -107,16 +107,23 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** a Kelp Forest é rara, mas mais comum que o Abyssal Ocean.
 - **Decidido:** ela pode gerar em oceanos vanilla que possuem algas.
 - **Decidido:** sua profundidade é normal, sem necessidade de oceano mais fundo.
+- **Decidido:** por enquanto, a Kelp Forest não possui boss, objetivo principal ou progressão própria.
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
 - **Decidido:** é muito denso e possui baixa visibilidade interna.
-- **Decidido:** algas desaceleram o jogador, mas muito menos que uma teia.
+- **Decidido:** todas as algas vanilla passam a desacelerar o jogador globalmente, não apenas na Kelp Forest.
+- **Decidido:** algas também desaceleram barcos.
+- **Decidido:** a desaceleração é bem menor que a de uma teia.
 - **Decidido:** terá ruínas próprias semelhantes em conceito às ruínas submarinas vanilla, mas com maior presença de algas e blocos musgosos.
 - **Decidido:** essas ruínas usam loot equivalente ao das ruínas vanilla; não possuem loot exclusivo planejado no momento.
-- **Decidido:** terá um caranguejo temático que vive no fundo e se move de forma inspirada em Nyl's Spiders, sem escalar paredes.
+- **Decidido:** as ruínas da Kelp Forest são levemente mais comuns que ruínas vanilla equivalentes.
+- **Decidido:** terá um caranguejo temático passivo que vive no fundo e se move de forma inspirada em Nyl's Spiders, sem escalar paredes.
 - **Decidido:** terá uma piranha elétrica de tamanho médio.
 - **Decidido:** a piranha ataca com mordida e também causa dano elétrico por proximidade.
-- **Decidido:** a piranha elétrica terá integração com Iron's Spellbooks permitindo coletar sua aura elétrica com uma garrafa.
-- **Decidido:** terá um tubarão temático com modelo original e IA aquática relativamente genérica.
+- **Decidido:** a piranha elétrica terá integração com Iron's Spellbooks; o jogador usa clique direito nela segurando uma garrafa para coletar a aura elétrica.
+- **Decidido:** terá um tubarão temático raro e forte, mas tratado como mob normal do bioma, não como boss.
+- **Decidido:** o tubarão possui 150 de vida.
+- **Decidido:** seu papel é comparável ao de uma ameaça rara e forte do mundo, como a serpente marinha do Ice and Fire.
+- **Decidido:** sua IA será aquática relativamente genérica.
 - **Decidido:** os mobs principais da Kelp Forest não possuem relação ecológica especial entre si planejada no momento.
 - **Decidido:** a garrafa elétrica não é um item importante para progressão.
 - **Decidido:** ainda não há outro recurso exclusivo importante da Kelp Forest definido.
