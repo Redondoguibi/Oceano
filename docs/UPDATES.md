@@ -317,8 +317,10 @@ Também é desejável detectar quando o jogador está apenas **dando muitas volt
   - o contador permanece **pausado** enquanto o comportamento continuar.
 - A heurística exata de detecção ainda está em aberto.
 
-A distância da costa/terra funciona como um **limite mínimo**, não como uma progressão gradual de chance.
-- Limite confirmado: aproximadamente **500 blocos da terra**.
+A condição de afastamento funciona por **continuidade de biomas aquáticos**, não por detectar geometricamente uma ilha/terra física.
+- Limite confirmado: aproximadamente **500 blocos** percorridos/mantidos dentro de biomas compostos predominantemente por água.
+- Se o percurso/contexto entrar em um bioma que **não** seja composto predominantemente por água, essa condição é bloqueada/interrompida.
+- Isso também evita depender de uma lista fixa de ilhas ou terrenos e favorece compatibilidade indireta com mods de oceano.
 
 ### Concorrência de eventos
 
@@ -333,7 +335,7 @@ Durante uma tempestade:
 
 - há muitos **raios vanilla reais** caindo nas proximidades;
 - eles funcionam como raios normais do Minecraft, podendo atingir entidades e causar seus efeitos normais;
-- referência atual de intensidade: aproximadamente **1 raio a cada 10 segundos**;
+- referência atual de intensidade: aproximadamente **1 raio a cada 10 segundos por grupo de jogadores**;
 - o fog/nevoeiro fica **mais denso**, reduzindo a visibilidade;
 - a tempestade aumenta a chance de outros eventos marítimos;
 - o Kraken só pode aparecer durante tempestades, embora continue sendo **muito raro**.
@@ -343,7 +345,8 @@ Durante uma tempestade:
 - A duração é **aleatória**, variando aproximadamente entre **2 e 5 minutos**.
 - O efeito escurece a visão de todos os jogadores em um raio de aproximadamente **150 blocos**.
 - Não altera outras mecânicas diretamente; é um evento principalmente de pressão/atmosfera.
-- Quando a escuridão termina, **obrigatoriamente é disparado algum outro evento que não seja uma tempestade**.
+- Quando a escuridão termina, **obrigatoriamente é disparado imediatamente algum outro evento que não seja uma tempestade**.
+- A ausência de intervalo é intencional para deixar a transição mais dramática e impedir que o jogador saiba exatamente quando a escuridão terminou.
 
 ### Infestação/aglomeração de peixes
 
@@ -365,6 +368,7 @@ Durante uma tempestade:
 - Jogadores suficientemente próximos compartilham o mesmo contexto de eventos marítimos.
 - Distância de agrupamento: aproximadamente **150 blocos entre jogadores**.
 - Jogadores dentro desse limite devem perceber/participar do mesmo evento relevante, em vez de cada um possuir uma tempestade ou escuridão completamente independente.
+- Um jogador que entre no grupo dentro dos 150 blocos **participa dos eventos do grupo mesmo que ainda não tenha cumprido individualmente os 5 minutos de navegação**.
 - Se os jogadores se afastarem além desse limite, poderão passar a ser tratados como grupos separados.
 - O comportamento exato de divisão/reunião de grupos ainda pode ser refinado tecnicamente.
 
@@ -409,7 +413,7 @@ Esta seção é uma **proposta de design**, não uma decisão final.
 
 Depois de o grupo ficar elegível (5 min de navegação válida + 500 blocos da terra):
 
-1. O sistema faz uma tentativa de evento a cada **30 segundos**.
+1. O sistema faz uma tentativa de evento a cada **45 segundos**.
 2. A chance-base começa em **10%**.
 3. Cada tentativa sem evento aumenta a chance em **+2 pontos percentuais**, até um teto de **30%**.
 4. Quando um evento acontece, a chance volta para 10%.
@@ -429,3 +433,16 @@ Objetivo da proposta:
 - manter imprevisibilidade;
 - permitir sobreposição durante tempestades;
 - não transformar o oceano em uma sequência constante de eventos.
+
+
+### Catálogo atual de eventos
+
+Até o momento, o catálogo confirmado do Update 3 contém:
+
+- tempestade;
+- escuridão;
+- infestação/aglomeração de peixes;
+- ilhas marítimas;
+- Kraken, condicionado a tempestade.
+
+Não há outros tipos de evento planejados no momento.
