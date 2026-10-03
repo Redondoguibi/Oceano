@@ -299,6 +299,65 @@ Tipos já definidos:
 - A Ilha da Miragem é uma exceção confirmada.
 - As ilhas são pensadas como estruturas geradas durante a exploração do mundo/oceano.
 
+
+### Sistema de navegação e elegibilidade de eventos
+
+Um jogador entra no estado de **navegação marítima elegível para eventos** quando:
+
+- está em um **bioma composto predominantemente por água**, em vez de depender de uma lista fixa de biomas vanilla;
+- está dentro de um **barco**;
+- o barco está **em movimento**, e não parado;
+- permanece nessa condição por aproximadamente **5 minutos** antes de eventos começarem a poder ocorrer.
+
+Essa detecção por característica do bioma é intencional para oferecer **compatibilidade indireta com mods que adicionam oceanos/biomas aquáticos**.
+
+Também é desejável, se tecnicamente viável, detectar quando o jogador está apenas **dando muitas voltas na mesma região**, para evitar que circular artificialmente em um espaço pequeno seja equivalente a navegação real. A heurística exata ainda está em aberto.
+
+A distância da costa/terra funciona como um **limite mínimo**, não como uma progressão gradual de chance. O valor exato desse limite ainda precisa ser definido.
+
+### Concorrência de eventos
+
+- Mais de um evento pode estar ativo ao mesmo tempo.
+- Uma **tempestade aumenta a chance de outros eventos ocorrerem** enquanto está ativa.
+- Isso permite combinações como tempestade + infestação de peixes + Kraken.
+- A duração de tempestades é **aleatória**.
+
+### Tempestades
+
+Durante uma tempestade:
+
+- há muitos **raios** caindo nas proximidades;
+- referência atual de intensidade: aproximadamente **1 raio a cada 10 segundos**;
+- o fog/nevoeiro fica **mais denso**, reduzindo a visibilidade;
+- a tempestade aumenta a chance de outros eventos marítimos;
+- o Kraken só pode aparecer durante tempestades, embora continue sendo **muito raro**.
+
+### Evento de escuridão
+
+- A duração é **aleatória**.
+- O efeito escurece a visão de todos os jogadores em um raio de aproximadamente **50 blocos**.
+- Não altera outras mecânicas diretamente; é um evento principalmente de pressão/atmosfera.
+- Quando a escuridão termina, **obrigatoriamente é disparado algum outro evento que não seja uma tempestade**.
+
+### Infestação/aglomeração de peixes
+
+- O evento gera uma **aglomeração em massa de peixes próxima ao jogador**.
+- A composição depende do bioma.
+- O perigo depende das criaturas disponíveis naquele bioma.
+- Exemplo: na Kelp Forest, uma infestação pode incluir muitas piranhas e se tornar perigosa.
+- O sistema deve permitir integração com fauna de outros mods quando aplicável, incluindo a integração já planejada com Aquaculture.
+
+### Kraken
+
+- Se permanecer no Update 3, o Kraken funciona como um evento marítimo raro.
+- A única condição especial confirmada para seu aparecimento é haver uma **tempestade ativa**.
+- Mesmo durante tempestades, sua chance deve continuar **muito baixa**.
+
+### Geração de ilhas
+
+- Ilhas de eventos só podem surgir em **chunks novos**, ainda não explorados/gerados.
+- O sistema não deve criar uma ilha retroativamente em área marítima já explorada.
+
 ### Ainda em aberto
 
 - Catálogo completo de eventos.
