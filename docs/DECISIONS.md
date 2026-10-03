@@ -130,19 +130,22 @@ Registro das decisões de design tomadas antes da implementação.
 - **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
 
 ### Update 3 — Navegação, clima e ilhas
+- **Decidido:** jogadores dentro de aproximadamente 150 blocos uns dos outros compartilham o mesmo contexto de eventos marítimos.
+- **Decidido:** jogadores mais distantes podem ser tratados como grupos de eventos separados.
 
 - **Decidido:** eventos marítimos só começam a ser elegíveis após aproximadamente 5 minutos de navegação válida.
 - **Decidido:** navegação válida exige estar em um barco em movimento dentro de um bioma composto predominantemente por água.
 - **Decidido:** a detecção por característica aquática do bioma é preferida para compatibilidade indireta com mods de oceano.
-- **Desejável:** detectar, se viável, quando o jogador está apenas circulando repetidamente pela mesma área; a heurística exata ainda está em aberto.
+- **Decidido:** ao detectar que o jogador está circulando repetidamente pela mesma área, o contador de 5 minutos é zerado e permanece pausado enquanto o comportamento continuar.
+- **Em aberto:** heurística exata para detectar que o jogador está dando voltas.
 - **Decidido:** distância da costa/terra é uma condição por limite mínimo, não uma chance que cresce gradualmente com a distância.
-- **Em aberto:** valor exato do limite de distância da costa/terra.
+- **Decidido:** o limite mínimo é aproximadamente 500 blocos da terra.
 - **Decidido:** múltiplos eventos podem ocorrer simultaneamente.
 - **Decidido:** tempestades aumentam a chance de outros eventos enquanto estão ativas.
-- **Decidido:** duração das tempestades é aleatória.
-- **Decidido:** durante tempestades, há alta frequência de raios próximos ao jogador, com referência aproximada de 1 raio a cada 10 segundos.
+- **Decidido:** duração das tempestades é aleatória, entre aproximadamente 3 e 10 minutos.
+- **Decidido:** durante tempestades, há alta frequência de raios vanilla reais próximos ao jogador, com referência aproximada de 1 raio a cada 10 segundos.
 - **Decidido:** tempestades tornam o fog/nevoeiro mais denso.
-- **Decidido:** o evento de escuridão tem duração aleatória e afeta jogadores em um raio de aproximadamente 50 blocos.
+- **Decidido:** o evento de escuridão dura aproximadamente entre 2 e 5 minutos e afeta jogadores em um raio de aproximadamente 150 blocos.
 - **Decidido:** a escuridão não possui efeito mecânico adicional além de escurecer a visão.
 - **Decidido:** ao terminar um evento de escuridão, obrigatoriamente ocorre outro evento que não seja tempestade.
 - **Decidido:** infestações de peixes criam uma aglomeração em massa próxima ao jogador e variam conforme o bioma.
@@ -172,3 +175,10 @@ Registro das decisões de design tomadas antes da implementação.
 - Catálogo e regras completas dos eventos climáticos.
 - Progressão global.
 - Direção artística e sonora.
+
+### Propostas ainda não confirmadas
+
+- **Proposta:** após elegibilidade, tentar gerar um evento a cada 30s.
+- **Proposta:** começar com 10% de chance por tentativa, aumentando +2 p.p. por falha até 30%, e resetar após um evento.
+- **Proposta:** durante tempestade, multiplicar aproximadamente por 1,75x a chance de eventos compatíveis.
+- **Proposta:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
