@@ -137,7 +137,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Ainda em aberto
 
 - Paleta completa do fundo e da água.
-- Aparência exata do peixe abissal.
+- Aparência final do Abyssal Angler.
 - Loot do navio.
 - Mecânicas e arena do Leviathan.
 - Outras utilidades dos cristais.
@@ -315,6 +315,24 @@ Visual e estrutura:
 - ilhas normais possuem aparência **natural e comum**, coerente com ilhas Minecraft: areia, terra, vegetação e materiais naturais;
 - elas não descem como uma grande massa de pedra até o fundo do oceano;
 - visualmente, ficam como uma massa de terreno que **“flutua” na superfície da água**, sem coluna rochosa de sustentação até o fundo.
+
+### Proposta de pesos das ilhas
+
+Proposta inicial para as **6 categorias confirmadas**:
+
+- pequena sem baú: **30%**;
+- pequena com baú: **20%**;
+- média sem baú: **25%**;
+- média com baú: **13%**;
+- grande com baú: **9%**;
+- Ilha da Miragem: **3%**.
+
+Total: **100%**.
+
+A proposta mantém:
+- média sem baú mais comum que pequena com baú;
+- queda clara de frequência conforme aumenta a recompensa;
+- Mirage aproximadamente duas faixas de raridade além da ilha grande com baú.
 
 ### Ilha da Miragem
 
