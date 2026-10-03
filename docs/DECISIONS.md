@@ -189,7 +189,7 @@ Registro das decisões de design tomadas antes da implementação.
 ## Em aberto
 
 - Receita completa do Abyssal Catalyst.
-- Aparência e comportamento do peixe abissal.
+- Aparência final do Abyssal Angler.
 - Detalhamento completo do Leviathan.
 - Loot do navio e das ilhas.
 - Aparência final dos mobs da Kelp Forest.
@@ -206,3 +206,12 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
 
 - **Decidido:** não há outros tipos de evento marítimo planejados no momento além de tempestade, escuridão, infestação de peixes, ilhas e Kraken.
+
+### Proposta de pesos das ilhas — aguardando aprovação
+
+- pequena sem baú 30%;
+- pequena com baú 20%;
+- média sem baú 25%;
+- média com baú 13%;
+- grande com baú 9%;
+- Ilha da Miragem 3%.
