@@ -141,6 +141,15 @@ As bossbars antigas enviadas anteriormente são somente referência para essa di
 - Bossbars antigas: referência de linguagem visual/interface, não design final.
 - Abyssal Ball: modelo, textura e animação já existentes como referência para o ataque de projéteis.
 
+## Placeholder de recompensa
+
+Enquanto o loot final do Leviathan não estiver planejado, usar como placeholder:
+
+- **1× Magic Abyssal Crystal**;
+- **1× barra de Netherite**.
+
+Esse loot é provisório e serve apenas para não deixar a implementação sem recompensa.
+
 ## Ainda em aberto
 
 - tamanho exato do Leviathan;
@@ -155,7 +164,7 @@ As bossbars antigas enviadas anteriormente são somente referência para essa di
 - telegraphs de cada ataque;
 - cooldowns e pesos de seleção;
 - música e sons;
-- loot e recompensa principal;
+- loot/recompensa final que substituirá o placeholder;
 - progressão liberada após a vitória;
 - regras para repetir a luta;
 - respawn da estrutura/boss;
