@@ -96,6 +96,9 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Criaturas e boss
 
 - **Abyssal Angler:** fauna básica do bioma.
+  - É uma criatura **neutra**.
+  - Possui **30 pontos de vida**.
+  - Usa dano normal, sem mecânica de dano especial planejada.
   - É principalmente uma criatura ambiental, sem mecânica especial planejada no momento.
   - É inspirado visual/conceitualmente no **peixe-diabo-negro**.
   - A inspiração serve como base para aparência/identidade, não como reprodução realista da espécie.
@@ -316,9 +319,9 @@ Visual e estrutura:
 - elas não descem como uma grande massa de pedra até o fundo do oceano;
 - visualmente, ficam como uma massa de terreno que **“flutua” na superfície da água**, sem coluna rochosa de sustentação até o fundo.
 
-### Proposta de pesos das ilhas
+### Pesos das ilhas
 
-Proposta inicial para as **6 categorias confirmadas**:
+Distribuição confirmada para as **6 categorias**:
 
 - pequena sem baú: **30%**;
 - pequena com baú: **20%**;
@@ -329,7 +332,7 @@ Proposta inicial para as **6 categorias confirmadas**:
 
 Total: **100%**.
 
-A proposta mantém:
+A distribuição mantém:
 - média sem baú mais comum que pequena com baú;
 - queda clara de frequência conforme aumenta a recompensa;
 - Mirage aproximadamente duas faixas de raridade além da ilha grande com baú.
@@ -495,6 +498,17 @@ Objetivo da proposta:
 - O **mesmo tipo de evento não deve ocorrer duas vezes seguidas** para o mesmo grupo.
 - Após um evento, esse tipo fica temporariamente excluído do próximo sorteio elegível.
 - Depois de outro evento diferente ocorrer, ele pode voltar normalmente ao pool.
+
+### Pesos dos eventos marítimos
+
+Quando uma tentativa de evento normal é bem-sucedida, usar a seguinte distribuição-base:
+
+- infestação/aglomeração de peixes: **35%**;
+- ilha: **30%**;
+- tempestade: **20%**;
+- escuridão: **15%**.
+
+O **Kraken não participa desse pool normal**. Ele usa uma regra rara própria e só pode ser considerado durante tempestades.
 
 ### Catálogo atual de eventos
 
