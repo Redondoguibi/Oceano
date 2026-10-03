@@ -163,7 +163,17 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** existirão infestações de peixes que variam por bioma e possuem integração planejada com Aquaculture.
 - **Decidido:** ilhas são estruturas geradas conforme a exploração do oceano.
 - **Decidido:** categorias já planejadas incluem ilhas pequenas/médias/grandes, com ou sem baús conforme o tipo.
+- **Decidido:** tamanhos aproximados: pequena ~20 blocos, média ~50 blocos e grande ~100 blocos.
+- **Decidido:** ilhas mais recompensadoras e/ou maiores tendem a ser mais raras.
+- **Decidido:** uma ilha pequena com baú é mais rara que uma ilha média sem baú; tamanho e recompensa afetam a raridade separadamente.
+- **Em aberto:** pesos exatos de raridade de cada categoria de ilha.
+- **Decidido:** baús das ilhas usam loot equivalente ao de um baú de tesouro.
+- **Decidido:** ilhas normais têm aparência natural/comum, sem temática visual específica por categoria.
+- **Decidido:** ilhas não possuem uma grande massa de pedra sustentando-as até o fundo; parecem “flutuar” na superfície da água.
 - **Decidido:** a **Ilha da Miragem** é enorme, possui baús e desaparece após aproximadamente 15 minutos.
+- **Decidido:** os 15 minutos da Ilha da Miragem começam no momento em que ela é gerada.
+- **Decidido:** se jogadores estiverem na Ilha da Miragem quando ela desaparecer, eles caem na água.
+- **Decidido:** blocos colocados pelo jogador sobre a Ilha da Miragem não desaparecem junto com a ilha.
 - **Decidido:** a maioria das outras ilhas persiste.
 - **Decidido:** ilhas possuem categorias internas que não precisam ser explicitadas ao jogador.
 
