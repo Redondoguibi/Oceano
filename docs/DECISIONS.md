@@ -104,15 +104,22 @@ Registro das decisões de design tomadas antes da implementação.
 - **Em aberto:** loot/recompensa do Leviathan ainda não foi planejado.
 
 ### Update 2 — Kelp Forest
+- **Decidido:** a Kelp Forest é rara, mas mais comum que o Abyssal Ocean.
+- **Decidido:** ela pode gerar em oceanos vanilla que possuem algas.
+- **Decidido:** sua profundidade é normal, sem necessidade de oceano mais fundo.
 - **Decidido:** usa algas vanilla crescendo do fundo até próximo da superfície.
 - **Decidido:** é muito denso e possui baixa visibilidade interna.
 - **Decidido:** algas desaceleram o jogador, mas muito menos que uma teia.
 - **Decidido:** terá ruínas próprias semelhantes em conceito às ruínas submarinas vanilla, mas com maior presença de algas e blocos musgosos.
+- **Decidido:** essas ruínas usam loot equivalente ao das ruínas vanilla; não possuem loot exclusivo planejado no momento.
 - **Decidido:** terá um caranguejo temático que vive no fundo e se move de forma inspirada em Nyl's Spiders, sem escalar paredes.
 - **Decidido:** terá uma piranha elétrica de tamanho médio.
 - **Decidido:** a piranha ataca com mordida e também causa dano elétrico por proximidade.
 - **Decidido:** a piranha elétrica terá integração com Iron's Spellbooks permitindo coletar sua aura elétrica com uma garrafa.
 - **Decidido:** terá um tubarão temático com modelo original e IA aquática relativamente genérica.
+- **Decidido:** os mobs principais da Kelp Forest não possuem relação ecológica especial entre si planejada no momento.
+- **Decidido:** a garrafa elétrica não é um item importante para progressão.
+- **Decidido:** ainda não há outro recurso exclusivo importante da Kelp Forest definido.
 - **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
 
 ### Update 3 — Navegação, clima e ilhas
