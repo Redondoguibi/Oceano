@@ -71,7 +71,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 
 - São blocos que geram em pequenos formatos/aglomerações de cristal no chão.
 - Podem ser minerados com ferramenta de nível diamante.
-- Cada aglomerado contém um `magic_abyssal_crystal` em seu interior.
+- Cada aglomerado contém **exatamente 1** `magic_abyssal_crystal` em seu interior.
 - O `magic_abyssal_crystal` é mais útil/importante do que os blocos comuns do aglomerado.
 - Haverá também cristais personalizados raros gigantes.
   - Mantêm a mesma linguagem estrutural dos cristais comuns, mas em escala grande.
@@ -82,9 +82,15 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - Item obrigatório para permanecer no Abyssal Ocean por longos períodos.
 - É um item **permanente**: não perde durabilidade nem carga pelo uso.
 - Basta o item existir em qualquer slot do inventário do jogador; não precisa estar equipado nem segurado.
-- Sua receita exige:
-  - cristais abissais comuns;
-  - **1 `magic_abyssal_crystal`**.
+- Receita exata do Abyssal Catalyst:
+  - Linha 1: vazio | cristal abissal | `magic_abyssal_crystal`
+  - Linha 2: vazio | graveto | cristal abissal
+  - Linha 3: graveto | vazio | vazio
+- Em notação compacta:
+  - `a c m`
+  - `a s c`
+  - `s a a`
+  - onde `m` = `magic_abyssal_crystal`, `c` = cristal abissal, `s` = graveto, `a` = vazio.
 - Até agora, esta é a única utilidade totalmente definida para o `magic_abyssal_crystal`.
 
 ### Criaturas e boss
@@ -97,8 +103,8 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Estrutura: navio naufragado personalizado
 
 - Estrutura inspirada no conceito do naufrágio vanilla, mas visualmente e estruturalmente própria.
-- Pode conter um mapa especial.
-- Esse mapa conduz o jogador até o **Leviathan**.
+- Possui **75% de chance** de conter um mapa especial.
+- Esse mapa conduz o jogador até a **estrutura onde o Leviathan nasce**.
 - Portanto, o navio funciona também como elo entre exploração ambiental e progressão para o boss.
 
 ### Água, névoa e visibilidade
