@@ -128,11 +128,13 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** a garrafa elétrica não é um item importante para progressão.
 - **Decidido:** ainda não há outro recurso exclusivo importante da Kelp Forest definido.
 - **Em decisão futura:** Kraken pertence ao Update 2 ou Update 3.
+- **Decidido:** o detalhamento completo do Kraken será deixado para depois e não deve bloquear o planejamento atual.
 
 ### Update 3 — Navegação, clima e ilhas
 - **Decidido:** jogadores dentro de aproximadamente 150 blocos uns dos outros compartilham o mesmo contexto de eventos marítimos.
 - **Decidido:** um jogador que entre nesse grupo participa dos eventos compartilhados mesmo sem ter cumprido individualmente os 5 minutos de navegação.
-- **Decidido:** jogadores mais distantes podem ser tratados como grupos de eventos separados.
+- **Decidido:** jogadores mais distantes passam a ser tratados como grupos de eventos separados.
+- **Decidido:** se um grupo se dividir durante um evento, o estado do evento também se separa entre os novos grupos.
 
 - **Decidido:** eventos marítimos só começam a ser elegíveis após aproximadamente 5 minutos de navegação válida.
 - **Decidido:** navegação válida exige estar em um barco em movimento dentro de um bioma composto predominantemente por água.
@@ -144,6 +146,7 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** o limite de referência é aproximadamente 500 blocos dentro desse contexto aquático.
 - **Decidido:** entrar em um bioma que não seja predominantemente composto por água bloqueia/interrompe essa condição.
 - **Decidido:** múltiplos eventos podem ocorrer simultaneamente.
+- **Decidido:** o mesmo tipo de evento não pode ocorrer duas vezes seguidas para o mesmo grupo; ele fica excluído do próximo sorteio e retorna ao pool depois que outro tipo de evento ocorre.
 - **Decidido:** tempestades aumentam a chance de outros eventos enquanto estão ativas.
 - **Decidido:** duração das tempestades é aleatória, entre aproximadamente 3 e 10 minutos.
 - **Decidido:** durante tempestades, há alta frequência de raios vanilla reais, com referência aproximada de 1 raio a cada 10 segundos **por grupo de jogadores**.
@@ -152,6 +155,7 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** a escuridão não possui efeito mecânico adicional além de escurecer a visão.
 - **Decidido:** ao terminar um evento de escuridão, obrigatoriamente ocorre **imediatamente** outro evento que não seja tempestade.
 - **Decidido:** infestações de peixes criam uma aglomeração em massa próxima ao jogador e variam conforme o bioma.
+- **Decidido:** os peixes gerados por uma infestação continuam existindo normalmente; não há despawn especial ao fim do evento.
 - **Decidido:** uma infestação pode ser perigosa quando a fauna local é hostil, como muitas piranhas na Kelp Forest.
 - **Decidido:** o Kraken só pode aparecer durante tempestades e continua sendo muito raro.
 - **Decidido:** ilhas de evento só podem ser geradas em chunks novos, não em regiões já exploradas.
@@ -166,6 +170,7 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** tamanhos aproximados: pequena ~20 blocos, média ~50 blocos e grande ~100 blocos.
 - **Decidido:** ilhas mais recompensadoras e/ou maiores tendem a ser mais raras.
 - **Decidido:** uma ilha pequena com baú é mais rara que uma ilha média sem baú; tamanho e recompensa afetam a raridade separadamente.
+- **Decidido:** a Ilha da Miragem deve funcionar como se estivesse aproximadamente duas categorias de raridade além da ilha grande com baú.
 - **Em aberto:** pesos exatos de raridade de cada categoria de ilha.
 - **Decidido:** baús das ilhas usam loot equivalente ao de um baú de tesouro.
 - **Decidido:** ilhas normais têm aparência natural/comum, sem temática visual específica por categoria.
