@@ -95,7 +95,10 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 
 ### Criaturas e boss
 
-- **Peixe abissal genérico:** fauna básica do bioma.
+- **Abyssal Angler:** fauna básica do bioma.
+  - É principalmente uma criatura ambiental, sem mecânica especial planejada no momento.
+  - É inspirado visual/conceitualmente no **peixe-diabo-negro**.
+  - A inspiração serve como base para aparência/identidade, não como reprodução realista da espécie.
 - **Leviathan:** boss principal associado ao Abyssal Ocean.
   - Possui bastante design já planejado.
   - Será detalhado separadamente em uma etapa própria da conversa.
@@ -103,6 +106,7 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 ### Estrutura: navio naufragado personalizado
 
 - Estrutura inspirada no conceito do naufrágio vanilla, mas visualmente e estruturalmente própria.
+- Possui **loot próprio do Oceano**, mas com filosofia/composição semelhante à de um naufrágio vanilla.
 - Possui **75% de chance** de conter um mapa especial.
 - Esse mapa conduz o jogador até a **estrutura onde o Leviathan nasce**.
 - Portanto, o navio funciona também como elo entre exploração ambiental e progressão para o boss.
@@ -291,6 +295,8 @@ Tipos já definidos:
 - ilha grande com baú;
 - **Ilha da Miragem**.
 
+Não existe categoria de **ilha grande sem baú**: uma ilha dessa escala sem recompensa foi descartada para evitar frustrar o jogador.
+
 Regras de raridade:
 
 - quanto maior e/ou mais recompensadora a ilha, mais rara ela tende a ser;
@@ -411,7 +417,7 @@ Durante uma tempestade:
 
 ### Ainda em aberto
 
-- Pesos exatos de cada categoria de ilha.
+- Pesos exatos de cada categoria de ilha, considerando apenas: pequena sem baú, pequena com baú, média sem baú, média com baú, grande com baú e Mirage.
 - Raridade específica da Ilha da Miragem.
 - Heurística exata para detectar navegação em círculos.
 - Regras de repetição/cooldown entre eventos iguais.
