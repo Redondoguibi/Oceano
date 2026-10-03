@@ -433,9 +433,9 @@ Para cada update, documentar:
 14. O que é obrigatório para a primeira implementação e o que pode ficar para depois.
 
 
-### Proposta — sorteio de eventos marítimos
+### Sistema de sorteio de eventos marítimos
 
-Esta seção é uma **proposta de design**, não uma decisão final.
+Sistema aprovado para a lógica-base de sorteio dos eventos marítimos.
 
 Depois de o grupo ficar elegível (5 min de navegação válida + 500 blocos da terra):
 
