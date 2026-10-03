@@ -80,6 +80,9 @@ Registro das decisões de design tomadas antes da implementação.
 - **Decidido:** sair do bioma antes do limite reseta completamente o contador; uma nova entrada começa um novo minuto.
 - **Decidido:** a progressão inicial do Abyssal Ocean consiste em uma primeira incursão curta sem Catalyst para obter cristais comuns + 1 `magic_abyssal_crystal`, fabricar o Catalyst e então liberar exploração prolongada.
 - **Decidido:** a fauna básica do Abyssal Ocean inclui o **Abyssal Angler**.
+- **Decidido:** o Abyssal Angler é neutro.
+- **Decidido:** o Abyssal Angler possui 30 de vida.
+- **Decidido:** o Abyssal Angler usa dano normal, sem mecânica de dano especial planejada.
 - **Decidido:** o Abyssal Angler é principalmente fauna ambiental, sem mecânica especial planejada no momento.
 - **Decidido:** seu conceito visual é inspirado no peixe-diabo-negro.
 - **Decidido:** haverá o boss **Leviathan**.
@@ -207,11 +210,20 @@ Registro das decisões de design tomadas antes da implementação.
 
 - **Decidido:** não há outros tipos de evento marítimo planejados no momento além de tempestade, escuridão, infestação de peixes, ilhas e Kraken.
 
-### Proposta de pesos das ilhas — aguardando aprovação
+### Pesos das ilhas — aprovado
 
-- pequena sem baú 30%;
-- pequena com baú 20%;
-- média sem baú 25%;
-- média com baú 13%;
-- grande com baú 9%;
-- Ilha da Miragem 3%.
+- **Decidido:** pequena sem baú 30%.
+- **Decidido:** pequena com baú 20%.
+- **Decidido:** média sem baú 25%.
+- **Decidido:** média com baú 13%.
+- **Decidido:** grande com baú 9%.
+- **Decidido:** Ilha da Miragem 3%.
+
+
+### Pesos dos eventos marítimos — aprovado
+
+- **Decidido:** infestação/aglomeração de peixes 35%.
+- **Decidido:** ilha 30%.
+- **Decidido:** tempestade 20%.
+- **Decidido:** escuridão 15%.
+- **Decidido:** Kraken fica fora do pool normal e usa uma regra rara própria condicionada a tempestade.
