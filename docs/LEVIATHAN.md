@@ -102,6 +102,29 @@ O modelo exportado possui partes separadas como `body`, `charge` e `root_outline
 - É usada principalmente quando o jogador está dentro de um dos buracos/cavernas, desde que ele não esteja distante demais.
 - Serve para impedir que as cavernas funcionem como zonas completamente seguras.
 
+## Cristais especiais da bossfight
+
+- São **entidades**, não blocos.
+- Cada cristal possui **30 pontos de vida**.
+- O jogador os destrói atacando/batendo neles normalmente.
+- Não há efeito adicional confirmado causado pelos cristais por si só.
+- Enquanto existir pelo menos 1 cristal vivo:
+  - o Leviathan permanece imortal;
+  - o Leviathan **continua atacando normalmente**.
+- Portanto, destruir os cristais acontece sob pressão do próprio boss, e não durante uma pausa segura.
+
+## Mini buraco negro
+
+- Acontece nos checkpoints de 75%, 50% e 25%.
+- O Leviathan recua antes de usar a habilidade.
+- O buraco negro:
+  - puxa jogadores em um raio de **20 blocos**;
+  - causa dano a jogadores que chegam a até **3 blocos** dele.
+- Duração:
+  - se **nenhum jogador** estiver dentro do raio de 20 blocos, dura aproximadamente **10 segundos**;
+  - se houver **pelo menos 1 jogador** dentro do raio de 20 blocos, dura aproximadamente **20 segundos**.
+- O valor exato de dano ainda não foi definido.
+
 ## Interface
 
 Há duas informações distintas que devem ficar legíveis durante a luta:
@@ -123,16 +146,16 @@ As bossbars antigas enviadas anteriormente são somente referência para essa di
 - tamanho exato do Leviathan;
 - vida total;
 - dano de cada ataque;
-- duração e comportamento exato do mini buraco negro;
-- comportamento do Leviathan enquanto os cristais estão vivos;
-- propriedades dos cristais especiais (vida, hitbox, resistência, feedback visual/sonoro);
+- valor exato do dano do mini buraco negro;
+- feedback visual/sonoro dos cristais especiais;
+- hitbox e resistência adicional dos cristais, se houver;
 - funcionamento exato do mini buraco negro;
 - duração e rastreamento do raio contínuo;
 - velocidade e comportamento dos projéteis teleguiados;
 - telegraphs de cada ataque;
 - cooldowns e pesos de seleção;
 - música e sons;
-- loot;
+- loot e recompensa principal;
 - progressão liberada após a vitória;
 - regras para repetir a luta;
 - respawn da estrutura/boss;
