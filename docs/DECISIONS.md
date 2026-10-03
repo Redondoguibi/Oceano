@@ -189,11 +189,11 @@ Registro das decisões de design tomadas antes da implementação.
 - Progressão global.
 - Direção artística e sonora.
 
-### Propostas ainda não confirmadas
+### Sistema de sorteio aprovado
 
-- **Proposta aprovada:** após elegibilidade, tentar gerar um evento a cada 45s.
-- **Proposta aprovada:** começar com 10% de chance por tentativa, aumentando +2 p.p. por falha até 30%, e resetar após um evento.
-- **Proposta aprovada:** durante tempestade, multiplicar aproximadamente por 1,75x a chance de eventos compatíveis.
-- **Proposta aprovada:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
+- **Decidido:** após elegibilidade, tentar gerar um evento a cada 45s.
+- **Decidido:** começar com 10% de chance por tentativa, aumentando +2 p.p. por falha até 30%, e resetar após um evento.
+- **Decidido:** durante tempestade, multiplicar aproximadamente por 1,75x a chance de eventos compatíveis.
+- **Decidido:** usar pesos por evento para controlar raridade, mantendo Kraken extremamente raro.
 
 - **Decidido:** não há outros tipos de evento marítimo planejados no momento além de tempestade, escuridão, infestação de peixes, ilhas e Kraken.
