@@ -163,8 +163,10 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - As algas se estendem do fundo até a camada superficial da água.
 - O bioma é muito denso e difícil de enxergar por dentro.
 - É possível atravessá-lo normalmente.
-- O mod altera o comportamento das algas nesse contexto: contato com elas desacelera o jogador.
+- O mod altera o comportamento das algas **globalmente**, não apenas dentro da Kelp Forest.
+- Contato com algas desacelera o jogador.
 - A desaceleração lembra uma teia como conceito, mas deve ser consideravelmente menos intensa.
+- **Barcos também são desacelerados** ao atravessar algas.
 
 ### Estruturas
 
@@ -173,11 +175,13 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
 - Têm mais algas e maior presença de blocos como pedregulho com musgo e materiais semelhantes.
 - A intenção não é reinventar completamente o conceito das ruínas, mas dar a elas uma identidade própria coerente com a Kelp Forest.
 - O loot segue o mesmo padrão das ruínas vanilla; não há loot exclusivo planejado para elas neste momento.
+- Essas ruínas devem gerar **levemente mais frequentemente** do que ruínas vanilla equivalentes.
 
 ### Criaturas planejadas
 
 - **Caranguejo temático**
   - Vive no fundo do bioma.
+  - É **passivo**.
   - Locomoção inspirada no comportamento visual/movimento dos mobs do mod Nyl's Spiders.
   - Não escala paredes.
   - A referência principal é o jeito de andar, não o comportamento completo de aranha.
@@ -190,17 +194,26 @@ Quando uma criatura é descrita como **temática**, significa que ela é uma cri
   - Também ataca com mordida.
   - O dano total pode resultar da combinação entre mordida e eletricidade.
   - Integração planejada com Iron's Spells 'n Spellbooks:
-    - a aura elétrica pode ser coletada com uma garrafa;
+    - o jogador segura uma garrafa e usa **clique direito** na piranha;
+    - a aura elétrica é coletada;
     - isso gera uma garrafa elétrica compatível/relacionada ao mod.
 
 - **Tubarão temático**
   - Modelo original e visualmente trabalhado.
   - Criatura personalizada, não reprodução de uma espécie real.
+  - É um mob **raro e forte**, mas ainda tratado como criatura normal do bioma, não como boss.
+  - Referência de papel: algo semelhante a uma serpente marinha do Ice and Fire — ameaça forte e rara, porém parte natural do mundo.
+  - Possui **150 pontos de vida**.
   - IA inicialmente pensada como comportamento aquático relativamente genérico.
 
 - **Kraken**
   - Planejado para o mod.
   - A decisão de pertencimento ao Update 2 ou 3 ainda está aberta.
+
+### Progressão e papel do bioma
+
+- Por enquanto, a Kelp Forest **não possui boss, objetivo principal ou progressão própria**.
+- Seu papel é principalmente enriquecer a exploração com ambientação, mobs, ruínas e comportamento distinto das algas.
 
 ### Relação entre criaturas e recursos
 
